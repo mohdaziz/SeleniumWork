@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/client-combined-3.11.0-sources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/byte-buddy-1.7.9"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/junit:junit:4.12"/>
+	<classpathentry kind="output" path="out/production/SeleniumWork"/>
+</classpath>

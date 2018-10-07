@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="46914d40-8684-48d5-bf6e-ee3c2f2db293" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/TestCase1.java" />
+        <option value="$PROJECT_DIR$/src/TripPlanner.java" />
+        <option value="$PROJECT_DIR$/src/RegionalTickets.java" />
+        <option value="$PROJECT_DIR$/src/CommonUtilities.java" />
+        <option value="$PROJECT_DIR$/src/LostPropertyTest.java" />
+        <option value="$PROJECT_DIR$/src/TravelInfoOnboardMenuTest.java" />
+        <option value="$PROJECT_DIR$/src/TestJUnit.java" />
+        <option value="$PROJECT_DIR$/src/test/TestCase1.java" />
+        <option value="$PROJECT_DIR$/src/test/TestJUnit.java" />
+        <option value="$PROJECT_DIR$/src/Common/CommonUtilities.java" />
+        <option value="$PROJECT_DIR$/src/test/TestSuite.java" />
+        <option value="$PROJECT_DIR$/src/Common/List.java" />
+        <option value="$PROJECT_DIR$/src/Common/Utilities.java" />
+        <option value="$PROJECT_DIR$/src/TripPlannerTest.java" />
+        <option value="$PROJECT_DIR$/src/DeparturesTest.java" />
+        <option value="$PROJECT_DIR$/src/PageObjects/Page_Trip_Planner.java" />
+        <option value="$PROJECT_DIR$/src/test/RegionalTicketsTest.java" />
+        <option value="$PROJECT_DIR$/src/PageObjects/Page_Home.java" />
+        <option value="$PROJECT_DIR$/src/PageObjects/Page_Lost_Property.java" />
+        <option value="$PROJECT_DIR$/src/PageObjects/Page_Regional_Travel_Info.java" />
+        <option value="$PROJECT_DIR$/src/test/SearchLostPropertyTest.java" />
+        <option value="$PROJECT_DIR$/src/test/TripPlannerTest.java" />
+        <option value="$PROJECT_DIR$/src/PageObjects/Primary_Navigation_Bar.java" />
+        <option value="$PROJECT_DIR$/src/test/TravelInfoOnboardMenuTest.java" />
+        <option value="$PROJECT_DIR$/src/test/DeparturesTest.java" />
+        <option value="$PROJECT_DIR$/src/log4j.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="33" />
+    <option name="y" value="53" />
+    <option name="width" value="1397" />
+    <option name="height" value="1237" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumWork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Common" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.DeparturesTest">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="DeparturesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWork" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.DeparturesTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="DeparturesTest.planJourneyByDeparture" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWork" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.DeparturesTest" />
+      <option name="METHOD_NAME" value="planJourneyByDeparture" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWork" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TestSuite" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TravelInfoOnboardMenuTest.SearchTravelOnBoardMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWork" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TravelInfoOnboardMenuTest" />
+      <option name="METHOD_NAME" value="SearchTravelOnBoardMenu" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TripPlannerTest.SearchTripByArrivalAndDestination" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWork" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TripPlannerTest" />
+      <option name="METHOD_NAME" value="SearchTripByArrivalAndDestination" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TravelInfoOnboardMenuTest.SearchTravelOnBoardMenu" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TripPlannerTest.SearchTripByArrivalAndDestination" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DeparturesTest.planJourneyByDeparture" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DeparturesTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestSuite" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DeparturesTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestSuite" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DeparturesTest.planJourneyByDeparture" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TripPlannerTest.SearchTripByArrivalAndDestination" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TravelInfoOnboardMenuTest.SearchTravelOnBoardMenu" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46914d40-8684-48d5-bf6e-ee3c2f2db293" name="Default" comment="" />
+      <created>1523534055459</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523534055459</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="DeparturesTest - 2018.10.07 at 17h 56m 46s.xml">
+      <configuration name="DeparturesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeparturesTest - 2018.10.07 at 17h 57m 34s.xml">
+      <configuration name="DeparturesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeparturesTest - 2018.10.07 at 17h 59m 49s.xml">
+      <configuration name="DeparturesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeparturesTest - 2018.10.07 at 18h 55m 41s.xml">
+      <configuration name="DeparturesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeparturesTest - 2018.10.07 at 22h 15m 02s.xml">
+      <configuration name="DeparturesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSuite - 2018.10.07 at 17h 50m 38s.xml">
+      <configuration name="TestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TravelInfoOnboardMenuTest_SearchTravelOnBoardMenu - 2018.10.06 at 21h 49m 30s.xml">
+      <configuration name="TravelInfoOnboardMenuTest.SearchTravelOnBoardMenu" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TravelInfoOnboardMenuTest_SearchTravelOnBoardMenu - 2018.10.06 at 21h 53m 51s.xml">
+      <configuration name="TravelInfoOnboardMenuTest.SearchTravelOnBoardMenu" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TravelInfoOnboardMenuTest_SearchTravelOnBoardMenu - 2018.10.06 at 21h 56m 26s.xml">
+      <configuration name="TravelInfoOnboardMenuTest.SearchTravelOnBoardMenu" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TripPlannerTest_SearchTripByArrivalAndDestination - 2018.10.06 at 21h 59m 27s.xml">
+      <configuration name="TripPlannerTest.SearchTripByArrivalAndDestination" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="33" y="53" width="1397" height="1237" extended-state="0" />
+    <layout>
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23550466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29422066" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24624194" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39914164" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283713" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961375" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/TestCase1.java" />
+    <entry file="file://$PROJECT_DIR$/src/TripPlannerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/Common/Utilities.java" />
+    <entry file="file://$PROJECT_DIR$/src/DeparturesTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/TestCase1.java" />
+    <entry file="file://$PROJECT_DIR$/src/Common/Utilities.java" />
+    <entry file="file://$PROJECT_DIR$/src/TripPlannerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/TestCase1.java" />
+    <entry file="file://$PROJECT_DIR$/src/Common/Utilities.java" />
+    <entry file="file://$PROJECT_DIR$/src/TripPlannerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/TestCase1.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/TestCase1.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/TestCase1.java" />
+    <entry file="jar://$USER_HOME$/Downloads/selenium-java-3/client-combined-3.11.0-sources.jar!/org/openqa/selenium/safari/SafariDriverService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumWork.iml" />
+    <entry file="file://$PROJECT_DIR$/src/test/TestCase1.java" />
+    <entry file="jar://$USER_HOME$/Downloads/selenium-java-3/client-combined-3.11.0-sources.jar!/org/openqa/selenium/safari/SafariDriverService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/TestCase1.java" />
+    <entry file="jar://$USER_HOME$/Downloads/selenium-java-3/client-combined-3.11.0-sources.jar!/org/openqa/selenium/safari/SafariDriverService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/TestCase1.java" />
+    <entry file="jar://$USER_HOME$/Downloads/selenium-java-3/client-combined-3.11.0-sources.jar!/org/openqa/selenium/safari/SafariDriverService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/TestCase1.java" />
+    <entry file="jar://$USER_HOME$/Downloads/selenium-java-3/client-combined-3.11.0-sources.jar!/org/openqa/selenium/safari/SafariDriverService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/TestCase1.java" />
+    <entry file="jar://$USER_HOME$/Downloads/selenium-java-3/client-combined-3.11.0-sources.jar!/org/openqa/selenium/remote/service/DriverService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="252" column="0" lean-forward="false" selection-start-line="252" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/selenium-java-3/client-combined-3.11.0-sources.jar!/org/openqa/selenium/safari/SafariDriverService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumWork.iml" />
+    <entry file="file://$PROJECT_DIR$/src/TripPlanner.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1118">
+          <caret line="564" column="5" lean-forward="true" selection-start-line="564" selection-start-column="5" selection-end-line="564" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LostPropertyTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/TestCase1.java" />
+    <entry file="file://$PROJECT_DIR$/src/Common/List.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/TestSuite.java" />
+    <entry file="file://$PROJECT_DIR$/src/TripPlannerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/Common/Utilities.java" />
+    <entry file="file://$PROJECT_DIR$/src/PageObjects/Page_Trip_Planner.java" />
+    <entry file="file://$PROJECT_DIR$/src/PageObjects/Page_Lost_Property.java" />
+    <entry file="file://$PROJECT_DIR$/src/PageObjects/Page_Home.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/RegionalTicketsTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/SearchLostPropertyTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/TripPlannerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/PageObjects/Primary_Navigation_Bar.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/TravelInfoOnboardMenuTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/PageObjects/Page_Regional_Travel_Info.java" />
+    <entry file="file://$PROJECT_DIR$/src/RegionalTickets.java" />
+    <entry file="file://$PROJECT_DIR$/src/DeparturesTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/Manual.log" />
+    <entry file="file://$PROJECT_DIR$/src/Selenium.log" />
+    <entry file="file://$PROJECT_DIR$/Logs/Manual.log" />
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties" />
+    <entry file="file://$PROJECT_DIR$/src/test/DeparturesTest.java" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SeleniumWork</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>log4j-1.2.17</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.24942529" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
