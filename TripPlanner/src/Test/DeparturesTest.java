@@ -24,11 +24,11 @@ import static Common.Utilities.sleep;
 import static org.apache.log4j.Logger.getLogger;
 
 @RunWith(Parameterized.class)
-public class DeparturesTest {
+public class DeparturesTest extends BaseTest {
 
-    WebDriver driver;
+    //WebDriver driver;
     private String fromLocation;
-    private static Logger LOGGER = null;
+    //private static Logger LOGGER = null;
 
     public DeparturesTest(String inputLocation) {
         fromLocation = inputLocation;
@@ -39,11 +39,11 @@ public class DeparturesTest {
         Object[][] data = new Object[][]{{"Epping"}, {"Hornsby"}, {"WestMead"}};
         return Arrays.asList(data);
     }
-
+/*
     @BeforeClass
     public static void setLogger() throws MalformedURLException {
         //System.setProperty("log4j.configurationFile","log4j2-testConfig.xml");
-        LOGGER = getLogger("xyz");
+        LOGGER = getLogger("testStep");
     }
 
     @Before
@@ -54,13 +54,17 @@ public class DeparturesTest {
         driver.get("https://transportnsw.info");
 
     }
-
+*/
     @Test
     public void planJourneyByDeparture() {
 
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        sleep(3);
+        //driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        //sleep(3);
 
+		LOGGER.debug("Navigate to home page");
+		driver.get(HOMEPAGE);
+		sleep(3);
+		
         LOGGER.debug("Select Plan from navigation tool bar");
         Primary_Navigation_Bar.Plan.planContainer(driver).click();
         sleep(3);
@@ -88,10 +92,10 @@ public class DeparturesTest {
         sleep(10);
 
     }
-
+/*
     @After
     public void PostTestCaseRunCleanup() {
         driver.quit();
     }
-
+*/
 }

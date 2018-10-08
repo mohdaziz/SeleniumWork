@@ -17,13 +17,13 @@ import static Common.Utilities.sleep;
 
 
 @RunWith(Parameterized.class)
-public class RegionalTicketsTest {
+public class RegionalTicketsTest extends BaseTest {
 
-    WebDriver driver;
-
+    //WebDriver driver;
     private String fromLocation;
     private String toLocation;
-
+	//private static Logger LOGGER = null; 
+	
     public RegionalTicketsTest(String inputFromLocation, String inputToLocation) {
         this.fromLocation = inputFromLocation;
         this.toLocation = inputToLocation;
@@ -34,8 +34,7 @@ public class RegionalTicketsTest {
         Object[][] data = new Object[][] { {"Central", "Wagga Wagga"}, {"Central", "NewCastle"}, {"Central", "Katoomba"} };
         return Arrays.asList(data);
     }
-
-
+/*
     @Before
     public void PreTestCaseRunSetup() {
 
@@ -44,19 +43,22 @@ public class RegionalTicketsTest {
         driver.manage().window().setPosition(new Point(1440,100));
 
     }
-
+*/
     @Test
     public void SearchForRegionalTickets(){
 
         //navigate to home page
-        driver.get("https://transportnsw.info");
+        LOGGER.debug("navigate to home page");
+		driver.get(HOMEPAGE);
         sleep(3);
 
+		LOGGER.debug("Click ticket and opal from primary navigation bar");
         Primary_Navigation_Bar.TicketsAndOpal.ticketsAndOpalContainer(driver).click();
         sleep(3);
 
         //select regional ticket link
-        Primary_Navigation_Bar.TicketsAndOpal.regionalTicketsLink(driver).click();
+        LOGGER.debug("select regional ticket link under ticket and opal drop down list");
+		Primary_Navigation_Bar.TicketsAndOpal.regionalTicketsLink(driver).click();
         sleep(15);
 
 
@@ -103,13 +105,13 @@ public class RegionalTicketsTest {
         sleep(15);
 		*/
     }
-
+/*
     @After
     public void PostTestCaseRunCleanup() {
 
         driver.quit();
 
     }
-
+*/
 
 }

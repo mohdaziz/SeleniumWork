@@ -20,7 +20,7 @@ import static Common.Utilities.pickRandomWebElement;
 import static Common.Utilities.sleep;
 
 @RunWith(Parameterized.class)
-public class SearchLostPropertyTest {
+public class SearchLostPropertyTest extends BaseTest {
 
     WebDriver driver;
     private int busRoute;
@@ -34,7 +34,7 @@ public class SearchLostPropertyTest {
         Object[][] data = new Object[][] { {11}, {12}, {13}, {14}, {15} };
         return Arrays.asList(data);
     }
-
+/*
     @Before
     public void PreTestCaseRunSetup() {
 
@@ -48,42 +48,51 @@ public class SearchLostPropertyTest {
         sleep(3);
 
     }
-
+*/
     @Test
     public void SearchForLostProperty() {
 
+		LOGGER.debug("navigate to home page");
+		driver.get(HOMEPAGE);
+		sleep(3);
+	
         //click contact us
         //driver.findElement(By.xpath("//*[@id=\"primary-nav\"]/li[5]/a[1]")).click();
-        Primary_Navigation_Bar.ContactUs.contactUsContainer(driver).click();
+        LOGGER.debug("Click on contact us link from primary navigation bar");
+		Primary_Navigation_Bar.ContactUs.contactUsContainer(driver).click();
 		sleep(3);
 
         //Click lost property
         //driver.findElement(By.xpath("//*[@id=\"/contact-us\"]/div[2]/ul/li[3]/a")).click();
-        Primary_Navigation_Bar.ContactUs.lostPropertyLink(driver).click();
+        LOGGER.debug("Select lost property link from Contact Us drop down list");
+		Primary_Navigation_Bar.ContactUs.lostPropertyLink(driver).click();
 		sleep(10);
 
         //expand buses
         //driver.findElement(By.id("accordion-buses-content-header")).click();
-        Page_Lost_Property.busesToggleArrow(driver).click();
+        LOGGER.debug("expand buses under operator contacts list");
+		Page_Lost_Property.busesToggleArrow(driver).click();
 		sleep(1);
 
         //search for Route
         //driver.findElement(By.id("search-input-Route")).sendKeys(String.valueOf(busRoute));
-        Page_Lost_Property.busRouteTextBox(driver).sendKeys(String.valueOf(busRoute));
+        LOGGER.debug("Search by route id");
+		Page_Lost_Property.busRouteTextBox(driver).sendKeys(String.valueOf(busRoute));
 		sleep(3);
 
         //select a bus route
+		LOGGER.debug("randonly select a bus route from search result");
         List<WebElement> busRouteSearchResults = Page_Lost_Property.searchBusRouteResultsList(driver);    //driver.findElements(By.xpath(".//*[contains(@id,'suggestion-Route-')]"));
         pickRandomWebElement(busRouteSearchResults).click();
         sleep(10);
 
     }
-
+/*
     @After
     public void PostTestCaseRunCleanup() {
 
         driver.quit();
 
     }
-
+*/
 }
