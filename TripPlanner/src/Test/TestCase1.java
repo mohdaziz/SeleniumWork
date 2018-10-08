@@ -1,4 +1,4 @@
-package test;
+package Test;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.safari.SafariDriver;

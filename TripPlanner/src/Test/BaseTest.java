@@ -1,35 +1,28 @@
-package test;
+package Test;
 
-//import org.junit.After;
-import org.junit.BeforeClass;
-import org.junit.AfterClass;
-//import org.junit.Test;
 import org.apache.log4j.Logger;
-
-//import org.junit.runner.RunWith;
-//import org.junit.runners.Parameterized;
-//import org.openqa.selenium.Dimension;
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
-//import org.openqa.selenium.WebElement;
 import org.openqa.selenium.safari.SafariDriver;
 
-//import java.util.Arrays;
-//import java.util.Collection;
-//import java.util.List;
-//import java.util.concurrent.TimeUnit;
+import java.net.MalformedURLException;
+import java.util.concurrent.TimeUnit;
 
+import static org.apache.log4j.Logger.getLogger;
 
 public class BaseTest {
 
-    WebDriver driver;
-	private static Logger LOGGER = null;
-	private static final HOMEPAGE = "https://transportnsw.info";
+    static WebDriver driver;
+	static Logger LOGGER = null;
+	static final String HOMEPAGE = "https://transportnsw.info";
 
     @BeforeClass
-    public void PreTestCaseRunSetup() throws MalformedURLException {
+    public static void PreTestCaseRunSetup() throws MalformedURLException {
 
 		LOGGER = getLogger("testStep");
-		LOGGER.debub("set webdriver to safarideriver");
+		LOGGER.debug("set webdriver to safarideriver");
         driver = new SafariDriver();
 		LOGGER.debug("set window dimension");
         driver.manage().window().setSize(new Dimension(1024, 1440));
@@ -39,7 +32,7 @@ public class BaseTest {
     }
 
     @AfterClass
-    public void closeBrowser() {
+    public static void closeBrowser() {
 
         driver.quit();
 

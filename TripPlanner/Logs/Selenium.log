@@ -1,18 +1,24 @@
-22:13:14,839 DEBUG xyz<strong>{1}</strong>:65 - Select Plan from navigation tool bar
-22:13:17,907 DEBUG xyz<strong>{1}</strong>:69 - Select departure from the drop down list
-22:13:20,961 DEBUG xyz<strong>{1}</strong>:73 - Select Departures sub tab from the left pane
-22:13:21,003 DEBUG xyz<strong>{1}</strong>:76 - Search departure destination
-22:13:24,148 DEBUG xyz<strong>{1}</strong>:81 - Pick a random destination
-22:13:34,229 DEBUG xyz<strong>{1}</strong>:86 - Click on Go blue button
-22:13:52,935 DEBUG xyz<strong>{1}</strong>:65 - Select Plan from navigation tool bar
-22:13:55,970 DEBUG xyz<strong>{1}</strong>:69 - Select departure from the drop down list
-22:13:59,011 DEBUG xyz<strong>{1}</strong>:73 - Select Departures sub tab from the left pane
-22:13:59,154 DEBUG xyz<strong>{1}</strong>:76 - Search departure destination
-22:14:02,328 DEBUG xyz<strong>{1}</strong>:81 - Pick a random destination
-22:14:12,412 DEBUG xyz<strong>{1}</strong>:86 - Click on Go blue button
-22:14:32,153 DEBUG xyz<strong>{1}</strong>:65 - Select Plan from navigation tool bar
-22:14:35,187 DEBUG xyz<strong>{1}</strong>:69 - Select departure from the drop down list
-22:14:38,231 DEBUG xyz<strong>{1}</strong>:73 - Select Departures sub tab from the left pane
-22:14:38,264 DEBUG xyz<strong>{1}</strong>:76 - Search departure destination
-22:14:41,410 DEBUG xyz<strong>{1}</strong>:81 - Pick a random destination
-22:14:51,486 DEBUG xyz<strong>{1}</strong>:86 - Click on Go blue button
+22:59:34,369 DEBUG testStep<strong>{1}</strong>:25 - set webdriver to safarideriver
+22:59:35,893 DEBUG testStep<strong>{1}</strong>:27 - set window dimension
+22:59:35,927 DEBUG testStep<strong>{1}</strong>:29 - Set implicit wait time
+22:59:35,936 DEBUG testStep<strong>{1}</strong>:55 - Navigate to home page
+22:59:42,850 DEBUG testStep<strong>{1}</strong>:59 - Select Plan from navigation tool bar
+22:59:45,891 DEBUG testStep<strong>{1}</strong>:63 - Select departure from the drop down list
+22:59:48,939 DEBUG testStep<strong>{1}</strong>:67 - Select Departures sub tab from the left pane
+22:59:48,975 DEBUG testStep<strong>{1}</strong>:70 - Search departure destination
+22:59:52,104 DEBUG testStep<strong>{1}</strong>:75 - Pick a random destination
+23:00:02,185 DEBUG testStep<strong>{1}</strong>:80 - Click on Go blue button
+23:00:12,256 DEBUG testStep<strong>{1}</strong>:55 - Navigate to home page
+23:00:16,729 DEBUG testStep<strong>{1}</strong>:59 - Select Plan from navigation tool bar
+23:00:19,756 DEBUG testStep<strong>{1}</strong>:63 - Select departure from the drop down list
+23:00:22,800 DEBUG testStep<strong>{1}</strong>:67 - Select Departures sub tab from the left pane
+23:00:22,832 DEBUG testStep<strong>{1}</strong>:70 - Search departure destination
+23:00:25,958 DEBUG testStep<strong>{1}</strong>:75 - Pick a random destination
+23:00:36,038 DEBUG testStep<strong>{1}</strong>:80 - Click on Go blue button
+23:00:46,108 DEBUG testStep<strong>{1}</strong>:55 - Navigate to home page
+23:00:50,885 DEBUG testStep<strong>{1}</strong>:59 - Select Plan from navigation tool bar
+23:00:53,908 DEBUG testStep<strong>{1}</strong>:63 - Select departure from the drop down list
+23:00:56,951 DEBUG testStep<strong>{1}</strong>:67 - Select Departures sub tab from the left pane
+23:00:56,986 DEBUG testStep<strong>{1}</strong>:70 - Search departure destination
+23:01:00,097 DEBUG testStep<strong>{1}</strong>:75 - Pick a random destination
+23:01:10,165 DEBUG testStep<strong>{1}</strong>:80 - Click on Go blue button

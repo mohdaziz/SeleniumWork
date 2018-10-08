@@ -1,18 +1,13 @@
-package test;
+package Test;
 
 import PageObjects.Primary_Navigation_Bar;
-import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import org.openqa.selenium.*;
-import org.openqa.selenium.safari.SafariDriver;
 
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.List;
-import static Common.Utilities.pickRandomWebElement;
+
 import static Common.Utilities.sleep;
 
 

@@ -1,18 +1,24 @@
-07/10/2018 22:13:14 xyz Select Plan from navigation tool bar
-07/10/2018 22:13:17 xyz Select departure from the drop down list
-07/10/2018 22:13:20 xyz Select Departures sub tab from the left pane
-07/10/2018 22:13:21 xyz Search departure destination
-07/10/2018 22:13:24 xyz Pick a random destination
-07/10/2018 22:13:34 xyz Click on Go blue button
-07/10/2018 22:13:52 xyz Select Plan from navigation tool bar
-07/10/2018 22:13:55 xyz Select departure from the drop down list
-07/10/2018 22:13:59 xyz Select Departures sub tab from the left pane
-07/10/2018 22:13:59 xyz Search departure destination
-07/10/2018 22:14:02 xyz Pick a random destination
-07/10/2018 22:14:12 xyz Click on Go blue button
-07/10/2018 22:14:32 xyz Select Plan from navigation tool bar
-07/10/2018 22:14:35 xyz Select departure from the drop down list
-07/10/2018 22:14:38 xyz Select Departures sub tab from the left pane
-07/10/2018 22:14:38 xyz Search departure destination
-07/10/2018 22:14:41 xyz Pick a random destination
-07/10/2018 22:14:51 xyz Click on Go blue button
+08/10/2018 22:59:34 testStep set webdriver to safarideriver
+08/10/2018 22:59:35 testStep set window dimension
+08/10/2018 22:59:35 testStep Set implicit wait time
+08/10/2018 22:59:35 testStep Navigate to home page
+08/10/2018 22:59:42 testStep Select Plan from navigation tool bar
+08/10/2018 22:59:45 testStep Select departure from the drop down list
+08/10/2018 22:59:48 testStep Select Departures sub tab from the left pane
+08/10/2018 22:59:48 testStep Search departure destination
+08/10/2018 22:59:52 testStep Pick a random destination
+08/10/2018 23:00:02 testStep Click on Go blue button
+08/10/2018 23:00:12 testStep Navigate to home page
+08/10/2018 23:00:16 testStep Select Plan from navigation tool bar
+08/10/2018 23:00:19 testStep Select departure from the drop down list
+08/10/2018 23:00:22 testStep Select Departures sub tab from the left pane
+08/10/2018 23:00:22 testStep Search departure destination
+08/10/2018 23:00:25 testStep Pick a random destination
+08/10/2018 23:00:36 testStep Click on Go blue button
+08/10/2018 23:00:46 testStep Navigate to home page
+08/10/2018 23:00:50 testStep Select Plan from navigation tool bar
+08/10/2018 23:00:53 testStep Select departure from the drop down list
+08/10/2018 23:00:56 testStep Select Departures sub tab from the left pane
+08/10/2018 23:00:56 testStep Search departure destination
+08/10/2018 23:01:00 testStep Pick a random destination
+08/10/2018 23:01:10 testStep Click on Go blue button

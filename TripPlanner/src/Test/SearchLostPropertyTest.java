@@ -1,16 +1,12 @@
-package test;
+package Test;
 
 import PageObjects.Page_Lost_Property;
 import PageObjects.Primary_Navigation_Bar;
-import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.safari.SafariDriver;
 
 import java.util.Arrays;
 import java.util.Collection;

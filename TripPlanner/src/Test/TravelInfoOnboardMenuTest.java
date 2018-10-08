@@ -1,19 +1,13 @@
-package test;
+package Test;
 
 import PageObjects.Page_Regional_Travel_Info;
 import PageObjects.Primary_Navigation_Bar;
-import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.Dimension;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.safari.SafariDriver;
 
 import static Common.Utilities.sleep;
 
-public class TravelInfoOnboardMenuTest {
+public class TravelInfoOnboardMenuTest extends BaseTest {
 
         WebDriver driver;
 /*

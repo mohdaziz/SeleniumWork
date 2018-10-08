@@ -1,27 +1,18 @@
-package test;
+package Test;
 
 import PageObjects.Page_Trip_Planner;
 import PageObjects.Primary_Navigation_Bar;
-import org.apache.log4j.Logger;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.safari.SafariDriver;
 
-import java.net.MalformedURLException;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 import static Common.Utilities.pickRandomWebElement;
 import static Common.Utilities.sleep;
-import static org.apache.log4j.Logger.getLogger;
 
 @RunWith(Parameterized.class)
 public class DeparturesTest extends BaseTest {
