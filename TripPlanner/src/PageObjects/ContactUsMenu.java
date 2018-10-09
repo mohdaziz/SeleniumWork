@@ -16,7 +16,7 @@ public class Primary_Navigation_Bar {
 	public static TicketAndOpalMenu ticketsAndOpalMenu = new TicketAndOpalMenu(primaryNavBar);	
 	public static TravelInfoMenu travelInfoMenu = new TravelInfoMenu(primaryNavBar);	
 	public ContactUsMenu contactUsMenu = new ContactUsMenu(primaryNavBar);	
-/*
+		
     public static WebElement primaryNavBar(WebDriver driver) {
         return driver.findElement(By.id("primary-nav"));
     }
@@ -27,7 +27,7 @@ public class Primary_Navigation_Bar {
             return driver.findElement(By.xpath("//*[@id=\"primary-nav\"]/li[1]"));
         }
     }
-*/
+
     public static class Plan {
 
         public static WebElement planContainer(WebDriver driver) {
