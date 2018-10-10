@@ -8,30 +8,17 @@ import org.openqa.selenium.support.FindBy;
 
 public class PlanMenu {
 
-	private WebElement primaryNavBar;
+	public WebElement primaryNavBar;
 	
 	public PlanMenu(WebElement primaryNavBar) {
 			this.primaryNavBar = primaryNavBar;
 	}
 
 	@FindBy(xpath = "//*[@id=\"primary-nav\"]/li[2]")
-	private WebElement planMenuDropDown;
+	public WebElement dropDown;
 	
-	private List<WebElement> optionsList = planMenuDropDown.findElements(By.tagName("li"));
+	public List<WebElement> optionsList = dropDown.findElements(By.tagName("li"));
 	
-	private WebElement departuresLink = dropDownList.get(1);
+	public WebElement departuresLink = optionsList.get(1);
 	
-	
-	public PlanMenu(WebElement primaryNavBar) {
-			this.primaryNavBar = primaryNavBar;
-	}
-
-	public void viewPlanMenuDropDownList() {
-		planMenuDropDown.click();
-	}
-	
-	public void clickDepartures() {
-		departuresLink.click();	
-	}	
-
 }

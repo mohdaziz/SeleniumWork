@@ -9,13 +9,14 @@ import org.openqa.selenium.support.FindBy;
 public class Primary_Navigation_Bar {
 
 	@FindBy(id = "primary-nav")
-	public static WebElement primaryNavBar;
+	public WebElement primaryNavBar;
 
-	public static HomeMenu homeMenu = new HomeMenu(primaryNavBar);
-	public static PlanMenu planMenu = new planMenu(primaryNavBar);
-	public static TicketAndOpalMenu ticketsAndOpalMenu = new TicketAndOpalMenu(primaryNavBar);	
-	public static TravelInfoMenu travelInfoMenu = new TravelInfoMenu(primaryNavBar);	
+	public HomeMenu homeMenu = new HomeMenu(primaryNavBar);
+	public PlanMenu planMenu = new planMenu(primaryNavBar);
+	public TicketAndOpalMenu ticketsAndOpalMenu = new TicketAndOpalMenu(primaryNavBar);	
+	public TravelInfoMenu travelInfoMenu = new TravelInfoMenu(primaryNavBar);	
 	public ContactUsMenu contactUsMenu = new ContactUsMenu(primaryNavBar);	
+
 /*
     public static WebElement primaryNavBar(WebDriver driver) {
         return driver.findElement(By.id("primary-nav"));
@@ -27,7 +28,7 @@ public class Primary_Navigation_Bar {
             return driver.findElement(By.xpath("//*[@id=\"primary-nav\"]/li[1]"));
         }
     }
-*/
+
     public static class Plan {
 
         public static WebElement planContainer(WebDriver driver) {
@@ -83,6 +84,6 @@ public class Primary_Navigation_Bar {
 
         }
     }
-
+*/
 }
 

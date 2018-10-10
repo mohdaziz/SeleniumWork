@@ -8,20 +8,13 @@ import org.openqa.selenium.support.FindBy;
 
 public class HomeMenu {
 
-	private WebElement primaryNavBar;
+	public WebElement primaryNavBar;
 
 	public HomeMenu(WebElement primaryNavBar) {
 			this.primaryNavBar = primaryNavBar;
 	}
 
 	@FindBy(xpath = "//*[@id=\"primary-nav\"]/li[1]")
-	private WebElement homeMenuLink;
+	public WebElement homeMenuLink;
 
-	public void clickHomeMenu() {
-		
-		HomeMenuLink.click();
-	
-	}
-	
 }
-
