@@ -1,16 +1,10 @@
 package PageObjects;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import selenium.Pages;
 import org.openqa.selenium.support.FindBy;
 
 public class ContactUsMenu {
 
-	public WebElement primaryNavBar;
-
-	@FindBy(id = "primary-nav")
 	public WebElement primaryNavBar;
 
 	public ContactUsMenu(WebElement primaryNavBar) {

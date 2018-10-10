@@ -30,21 +30,7 @@ public class SearchLostPropertyTest extends BaseTest {
         Object[][] data = new Object[][] { {11}, {12}, {13}, {14}, {15} };
         return Arrays.asList(data);
     }
-/*
-    @Before
-    public void PreTestCaseRunSetup() {
 
-        driver = new SafariDriver();
-
-        //resize window
-        driver.manage().window().setSize(new Dimension(1024, 1440));
-
-        //home page
-        driver.get("https://transportnsw.info");
-        sleep(3);
-
-    }
-*/
     @Test
     public void SearchForLostProperty() {
 
@@ -83,12 +69,5 @@ public class SearchLostPropertyTest extends BaseTest {
         sleep(10);
 
     }
-/*
-    @After
-    public void PostTestCaseRunCleanup() {
 
-        driver.quit();
-
-    }
-*/
 }
