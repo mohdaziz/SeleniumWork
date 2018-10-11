@@ -4,20 +4,18 @@ import PageObjects.Primary_Navigation_Bar;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-
+import org.openqa.selenium.support.PageFactory;
 import java.util.Arrays;
 import java.util.Collection;
 
 import static Common.Utilities.sleep;
 
-
 @RunWith(Parameterized.class)
 public class RegionalTicketsTest extends BaseTest {
 
-    //WebDriver driver;
     private String fromLocation;
     private String toLocation;
-	//private static Logger LOGGER = null; 
+	Primary_Navigation_Bar primaryNavBar = PageFactory.initElements(driver, Primary_Navigation_Bar.class);
 	
     public RegionalTicketsTest(String inputFromLocation, String inputToLocation) {
         this.fromLocation = inputFromLocation;
@@ -29,33 +27,23 @@ public class RegionalTicketsTest extends BaseTest {
         Object[][] data = new Object[][] { {"Central", "Wagga Wagga"}, {"Central", "NewCastle"}, {"Central", "Katoomba"} };
         return Arrays.asList(data);
     }
-/*
-    @Before
-    public void PreTestCaseRunSetup() {
 
-        driver = new SafariDriver();
-        driver.manage().window().setSize(new Dimension(1024, 1440));
-        driver.manage().window().setPosition(new Point(1440,100));
-
-    }
-*/
     @Test
     public void SearchForRegionalTickets(){
 
-        //navigate to home page
         LOGGER.debug("navigate to home page");
 		driver.get(HOMEPAGE);
         sleep(3);
 
 		LOGGER.debug("Click ticket and opal from primary navigation bar");
-        Primary_Navigation_Bar.TicketsAndOpal.ticketsAndOpalContainer(driver).click();
-        sleep(3);
+        //Primary_Navigation_Bar.TicketsAndOpal.ticketsAndOpalContainer(driver).click();
+        primaryNavBar.ticketsAndOpalMenu.dropDown.click();
+		sleep(3);
 
-        //select regional ticket link
         LOGGER.debug("select regional ticket link under ticket and opal drop down list");
-		Primary_Navigation_Bar.TicketsAndOpal.regionalTicketsLink(driver).click();
-        sleep(15);
-
+		//Primary_Navigation_Bar.TicketsAndOpal.regionalTicketsLink(driver).click();
+        primaryNavBar.ticketsAndOpalMenu.regionalTicketsLink.click();
+		sleep(15);
 
 		//Flow has changed. Needs rescripting.
 		/*
@@ -100,13 +88,5 @@ public class RegionalTicketsTest extends BaseTest {
         sleep(15);
 		*/
     }
-/*
-    @After
-    public void PostTestCaseRunCleanup() {
-
-        driver.quit();
-
-    }
-*/
 
 }

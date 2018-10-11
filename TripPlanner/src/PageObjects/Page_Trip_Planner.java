@@ -3,33 +3,37 @@ package PageObjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
+import org.openqa.selenium.support.FindBy;
 import java.util.List;
 
 public class Page_Trip_Planner {
 
-    public static WebElement tabPaneTripPlanner(WebDriver driver) {
-        return driver.findElement(By.id("tab-pane-tp"));
-    }
+	@FindBy(id = "tab-pane-tp")
+	public WebElement tabPaneTripPlanner;
 
-    public static class Departures {
+	@FindBy(id = "tab-pane-nd")
+	public WebElement tabPaneDepartures
+	
+	public Tab_Departures tab_Departures = new Tab_Departures();
+	
+}
 
-        public static WebElement tabPaneDepartures(WebDriver driver) {
-            return driver.findElement(By.id("tab-pane-nd"));
-        }
+public class Tab_Departures {
 
-        public static WebElement fromLocation(WebDriver driver) {
-            return driver.findElement(By.id("search-input-NextDep"));
-        }
+	@FindBy(id = "search-input-NextDep")
+	public WebElement fromLocation
+	
+	@FindBy(id = "next-dep-search-button")
+	public WebElement goButton
 
-        public static List<WebElement> listSearchResult(WebDriver driver) {
-            return driver.findElements(By.xpath(".//*[contains(@id,'suggestion-NextDep-')]"));
-        }
+	@FindBys(
+	@FindBy(xpath = ".//*[contains(@id,'suggestion-NextDep-')]"))
+	public List<WebElement> listSearchResult;
 
-        public static WebElement goButton(WebDriver driver) {
-            return driver.findElement(By.id("next-dep-search-button"));
-        }
+}
 
-     }
+public class Tab_Trip_Planner {
+
+	/* implementation in progress */
 
 }

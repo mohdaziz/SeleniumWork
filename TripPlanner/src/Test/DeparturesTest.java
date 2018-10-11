@@ -6,7 +6,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.openqa.selenium.WebElement;
-
+import org.openqa.selenium.support.PageFactory;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
@@ -17,10 +17,10 @@ import static Common.Utilities.sleep;
 @RunWith(Parameterized.class)
 public class DeparturesTest extends BaseTest {
 
-    //WebDriver driver;
     private String fromLocation;
-    //private static Logger LOGGER = null;
-
+	Primary_Navigation_Bar primaryNavBar = PageFactory.initElements(driver, Primary_Navigation_Bar.class);
+	Page_Trip_Planner page_TripPlanner = PageFactory.initElements(driver, Page_Trip_Planner.class);
+	
     public DeparturesTest(String inputLocation) {
         fromLocation = inputLocation;
     }
@@ -30,63 +30,44 @@ public class DeparturesTest extends BaseTest {
         Object[][] data = new Object[][]{{"Epping"}, {"Hornsby"}, {"WestMead"}};
         return Arrays.asList(data);
     }
-/*
-    @BeforeClass
-    public static void setLogger() throws MalformedURLException {
-        //System.setProperty("log4j.configurationFile","log4j2-testConfig.xml");
-        LOGGER = getLogger("testStep");
-    }
 
-    @Before
-    public void PreTestCaseRunSetup() {
-        driver = new SafariDriver();
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        //navigate to home page
-        driver.get("https://transportnsw.info");
-
-    }
-*/
     @Test
     public void planJourneyByDeparture() {
-
-        //driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        //sleep(3);
 
 		LOGGER.debug("Navigate to home page");
 		driver.get(HOMEPAGE);
 		sleep(3);
 		
-        LOGGER.debug("Select Plan from navigation tool bar");
-        Primary_Navigation_Bar.Plan.planContainer(driver).click();
-        sleep(3);
+        LOGGER.debug("Select plan from navigation tool bar");
+        //Primary_Navigation_Bar.Plan.planContainer(driver).click();
+        primaryNavBar.planMenu.dropDown.click();
+		sleep(3);
 
         LOGGER.debug("Select departure from the drop down list");
-        Primary_Navigation_Bar.Plan.departuresOption(driver).click();
-        sleep(3);
+        //Primary_Navigation_Bar.Plan.departuresOption(driver).click();
+        primaryNavBar.planMenu.departuresLink.click();
+		sleep(3);
 
-        LOGGER.debug("Select Departures sub tab from the left pane");
-        Page_Trip_Planner.Departures.tabPaneDepartures(driver).click();
-
+        LOGGER.debug("Select departures sub tab from the left pane");
+        //Page_Trip_Planner.Departures.tabPaneDepartures(driver).click();
+		page_TripPlanner.tabPaneDepartures.click();
+				
         LOGGER.debug("Search departure destination");
-        Page_Trip_Planner.Departures.fromLocation(driver).sendKeys(fromLocation);
-        sleep(3);
+        //Page_Trip_Planner.Departures.fromLocation(driver).sendKeys(fromLocation);
+        page_TripPlanner.tab_Departures.fromLocation.sendKeys(fromLocation);
+		sleep(3);
 
-        //Choose a random destination from result
         LOGGER.debug("Pick a random destination");
-        List<WebElement> locationOptions = Page_Trip_Planner.Departures.listSearchResult(driver);
-        pickRandomWebElement(locationOptions).click();
+        //List<WebElement> locationOptions = Page_Trip_Planner.Departures.listSearchResult(driver);
+        //pickRandomWebElement(locationOptions).click();
+		pickRandomWebElement(page_TripPlanner.tab_Departures.listSearchResult).click();
         sleep(10);
 
-        LOGGER.debug("Click on Go blue button");
-        //Click Go button
-        Page_Trip_Planner.Departures.goButton(driver).click();
-        sleep(10);
+        LOGGER.debug("Click on go blue button");
+        //Page_Trip_Planner.Departures.goButton(driver).click();
+        page_TripPlanner.tab_Departures.goButton.click();
+		sleep(10);
 
     }
-/*
-    @After
-    public void PostTestCaseRunCleanup() {
-        driver.quit();
-    }
-*/
+
 }
