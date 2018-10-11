@@ -3,7 +3,7 @@ package Test;
 import PageObjects.Page_Regional_Travel_Info;
 import PageObjects.Primary_Navigation_Bar;
 import org.junit.Test;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
 
 import static Common.Utilities.sleep;
 

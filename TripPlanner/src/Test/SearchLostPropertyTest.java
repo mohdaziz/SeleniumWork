@@ -52,7 +52,7 @@ public class SearchLostPropertyTest extends BaseTest {
 		sleep(1);
 
         LOGGER.debug("Search by route id");
-		pageLostProperty.busRouteTextBox..sendKeys(String.valueOf(busRoute));
+		pageLostProperty.busRouteTextBox.sendKeys(String.valueOf(busRoute));
 		sleep(3);
 
 		LOGGER.debug("randonly select a bus route from search result");

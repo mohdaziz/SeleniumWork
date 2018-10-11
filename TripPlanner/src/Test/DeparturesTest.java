@@ -1,11 +1,11 @@
 package Test;
 
 import PageObjects.Page_Trip_Planner;
+import PageObjects.PlanMenu;
 import PageObjects.Primary_Navigation_Bar;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import java.util.Arrays;
 import java.util.Collection;
@@ -19,6 +19,7 @@ public class DeparturesTest extends BaseTest {
 
     private String fromLocation;
 	Primary_Navigation_Bar primaryNavBar = PageFactory.initElements(driver, Primary_Navigation_Bar.class);
+    PlanMenu planMenu = PageFactory.initElements(driver, PlanMenu.class);
 	Page_Trip_Planner page_TripPlanner = PageFactory.initElements(driver, Page_Trip_Planner.class);
 	
     public DeparturesTest(String inputLocation) {
@@ -40,7 +41,7 @@ public class DeparturesTest extends BaseTest {
 		
         LOGGER.debug("Select plan from navigation tool bar");
         //Primary_Navigation_Bar.Plan.planContainer(driver).click();
-        primaryNavBar.planMenu.dropDown.click();
+        planMenu.dropDown.click();
 		sleep(3);
 
         LOGGER.debug("Select departure from the drop down list");
