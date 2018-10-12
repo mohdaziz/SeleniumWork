@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
+import org.openqa.selenium.support.PageFactory;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
@@ -17,9 +17,9 @@ import static Common.Utilities.sleep;
 @RunWith(Parameterized.class)
 public class TripPlannerTest extends BaseTest{
 
-    WebDriver driver;
     private String fromLocation;
     private String toLocation;
+	Primary_Navigation_Bar primaryNavBar = PageFactory.initElements(driver, Primary_Navigation_Bar.class);
 
     public TripPlannerTest(String fromInput, String toInput){
 
@@ -33,19 +33,7 @@ public class TripPlannerTest extends BaseTest{
         Object[][] data = new Object[][] { {"Parramatta", "Central"}, {"Redfern", "Blacktown"}, {"Strathfield", "Lidcombe" } };
         return Arrays.asList(data);
     }
-/*
-    @Before
-    public void PreTestCaseRunSetup() {
 
-        driver = new SafariDriver();
-        driver.manage().window().setSize(new Dimension(1024, 1440));
-        //navigate to home page
-        driver.get("https://transportnsw.info");
-        sleep(3);
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-
-    }
-*/
     @Test
     public void SearchTripByArrivalAndDestination(){
 
@@ -54,11 +42,8 @@ public class TripPlannerTest extends BaseTest{
 		sleep(3);
 	
 		LOGGER.debug("Select Plan tab from left sub window");
-        //select Plan container
-        //driver.findElement(By.id("tridget-plan-tab")).click();
-        //Primary_Navigation_Bar.PlanLink(driver).click();
-        //Primary_Navigation_Bar.Plan.planContainer(driver).click();
-		Page_Home.Block_TripPlanner.tab_Plan(driver).click();
+		//Page_Home.Block_TripPlanner.tab_Plan(driver).click();
+		primaryNavBar.homeMenu.homeMenuLink.click();
 		sleep(1);
 		
 		LOGGER.debug("Select trip planner sub tab");
@@ -103,12 +88,4 @@ public class TripPlannerTest extends BaseTest{
         sleep(5);
 
     }
-/*
-    @After
-    public void PostTestCaseRunCleanup() {
-
-        driver.quit();
-
-    }
-*/
 }

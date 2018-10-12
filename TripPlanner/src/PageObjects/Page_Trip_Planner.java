@@ -15,24 +15,24 @@ public class Page_Trip_Planner {
 	
 	public Tab_Departures tab_Departures = new Tab_Departures();
 
-	public class Tab_Departures {
+	private class Tab_Departures {
 
 		@FindBy(id = "search-input-NextDep")
-		public WebElement fromLocation;
+		private WebElement fromLocation;
 
 		@FindBy(id = "next-dep-search-button")
-		public WebElement goButton;
+		private WebElement goButton;
 
 		@FindBys(
 				@FindBy(xpath = ".//*[contains(@id,'suggestion-NextDep-')]"))
-		public List<WebElement> listSearchResult;
+		private List<WebElement> listSearchResult;
+
+	}
+
+	private class Tab_Trip_Planner {
+
+		/* implementation in progress */
 
 	}
 	
-}
-
-class Tab_Trip_Planner {
-
-	/* implementation in progress */
-
 }

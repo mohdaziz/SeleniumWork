@@ -19,7 +19,6 @@ public class DeparturesTest extends BaseTest {
 
     private String fromLocation;
 	Primary_Navigation_Bar primaryNavBar = PageFactory.initElements(driver, Primary_Navigation_Bar.class);
-    PlanMenu planMenu = PageFactory.initElements(driver, PlanMenu.class);
 	Page_Trip_Planner page_TripPlanner = PageFactory.initElements(driver, Page_Trip_Planner.class);
 	
     public DeparturesTest(String inputLocation) {
@@ -41,7 +40,7 @@ public class DeparturesTest extends BaseTest {
 		
         LOGGER.debug("Select plan from navigation tool bar");
         //Primary_Navigation_Bar.Plan.planContainer(driver).click();
-        planMenu.dropDown.click();
+        primaryNavBar.planMenu.dropDown.click();
 		sleep(3);
 
         LOGGER.debug("Select departure from the drop down list");
