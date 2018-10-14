@@ -1,12 +1,6 @@
-22:23:11,997 DEBUG testStep<strong>{1}</strong>:25 - set webdriver to safarideriver
-22:23:13,545 DEBUG testStep<strong>{1}</strong>:27 - set window dimension
-22:23:13,563 DEBUG testStep<strong>{1}</strong>:29 - Set implicit wait time
-22:23:13,596 DEBUG testStep<strong>{1}</strong>:38 - Navigate to home page
-22:23:22,414 DEBUG testStep<strong>{1}</strong>:42 - Select plan from navigation tool bar
-22:23:25,456 DEBUG testStep<strong>{1}</strong>:47 - Select departure from the drop down list
-22:23:25,462 DEBUG testStep<strong>{1}</strong>:38 - Navigate to home page
-22:23:30,077 DEBUG testStep<strong>{1}</strong>:42 - Select plan from navigation tool bar
-22:23:33,104 DEBUG testStep<strong>{1}</strong>:47 - Select departure from the drop down list
-22:23:33,107 DEBUG testStep<strong>{1}</strong>:38 - Navigate to home page
-22:23:37,553 DEBUG testStep<strong>{1}</strong>:42 - Select plan from navigation tool bar
-22:23:40,579 DEBUG testStep<strong>{1}</strong>:47 - Select departure from the drop down list
+22:31:17,396 DEBUG testStep<strong>{1}</strong>:25 - set webdriver to safarideriver
+22:31:18,788 DEBUG testStep<strong>{1}</strong>:27 - set window dimension
+22:31:18,804 DEBUG testStep<strong>{1}</strong>:29 - Set implicit wait time
+22:31:18,833 DEBUG testStep<strong>{1}</strong>:37 - Navigate to home page
+22:31:25,489 DEBUG testStep<strong>{1}</strong>:41 - Select plan from navigation tool bar
+22:31:38,534 DEBUG testStep<strong>{1}</strong>:37 - Navigate to home page

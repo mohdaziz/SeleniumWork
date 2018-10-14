@@ -37,12 +37,13 @@ public class DeparturesTest extends BaseTest {
 		LOGGER.debug("Navigate to home page");
 		driver.get(HOMEPAGE);
 		sleep(3);
-		
+
         LOGGER.debug("Select plan from navigation tool bar");
         //Primary_Navigation_Bar.Plan.planContainer(driver).click();
-        primaryNavBar.planMenu.dropDown.click();
-		sleep(3);
-
+        //primaryNavBar.planMenu.dropDown.click();
+		primaryNavBar.expandPlanMenu();
+        sleep(3);
+/*
         LOGGER.debug("Select departure from the drop down list");
         //Primary_Navigation_Bar.Plan.departuresOption(driver).click();
         primaryNavBar.planMenu.departuresLink.click();
@@ -66,7 +67,7 @@ public class DeparturesTest extends BaseTest {
         LOGGER.debug("Click on go blue button");
         //Page_Trip_Planner.Departures.goButton(driver).click();
         page_TripPlanner.tab_Departures.goButton.click();
-		sleep(10);
+*/		sleep(10);
 
     }
 

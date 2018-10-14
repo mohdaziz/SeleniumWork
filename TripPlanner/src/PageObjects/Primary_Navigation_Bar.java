@@ -14,53 +14,51 @@ public class Primary_Navigation_Bar {
 	public TravelInfoMenu travelInfoMenu = new TravelInfoMenu();
 	public ContactUsMenu contactUsMenu = new ContactUsMenu();
 
-	private class HomeMenu {
+	public class HomeMenu {
 
 		@FindBy(xpath = "//*[@id=\"primary-nav\"]/li[1]")
-		private WebElement homeMenuLink;
+		public WebElement homeMenuLink;
 
 	}
-	
-	private class PlanMenu {
+
+	public class PlanMenu {
 
 		@FindBy(xpath = "//*[@id=\"primary-nav\"]/li[2]")
-		private WebElement dropDown;
-	
-		private List<WebElement> optionsList = dropDown.findElements(By.tagName("li"));
-		private WebElement departuresLink = optionsList.get(1);
+		public WebElement dropDown;
+
 
 		@FindBy(xpath = "//*[@id=\"/plan\"]/div[2]/ul/li[2]")
-		private WebElement departuresLink;
+		public WebElement departuresLink;
 	
 	}
 
-	private class TicketAndOpalMenu {
+	public class TicketAndOpalMenu {
 
 		@FindBy(id = "//*[@id=\"primary-nav\"]/li[3]")
-		private WebElement dropDown;
+		public WebElement dropDown;
 
 		@FindBy(linkText = "Regional tickets")
-		private WebElement regionalTicketsLink;
+		public WebElement regionalTicketsLink;
 	
 	}
-	
-	private class TravelInfoMenu {
+
+	public class TravelInfoMenu {
 
 		@FindBy(xpath = "//*[@id=\"primary-nav\"]/li[4]/a[1]")
-		private WebElement dropDown;
+		public WebElement dropDown;
 	
 		@FindBy(linkText = "On board menu")
-		private WebElement onBoardMenuLink;
+		public WebElement onBoardMenuLink;
 	
 	}
 
-	private class ContactUsMenu {
+	public class ContactUsMenu {
 
 		@FindBy(xpath = "//*[@id=\"primary-nav\"]/li[5]")
-		private WebElement dropDown;
+		public WebElement dropDown;
 	
 		@FindBy(xpath = "//*[@id=\"/contact-us\"]/div[2]/ul/li[3]/a")
-		private WebElement lostPropertyLink;
+		public WebElement lostPropertyLink;
 	
 	}		
 }
