@@ -57,15 +57,11 @@ public class Page_Home {
 			}
 		}
 		
-		public static class Tab_Alerts {
+  		public static class Tab_Alerts {
 			
 		}
 		
-		public static class Book {
-			
-		}
+	public static class Book {
 		
-		
-     }
-
+	}
 }

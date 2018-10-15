@@ -40,10 +40,10 @@ public class DeparturesTest extends BaseTest {
 
         LOGGER.debug("Select plan from navigation tool bar");
         //Primary_Navigation_Bar.Plan.planContainer(driver).click();
-        //primaryNavBar.planMenu.dropDown.click();
-		primaryNavBar.expandPlanMenu();
+        primaryNavBar.planMenu.dropDown.click();
+		//primaryNavBar.expandPlanMenu();
         sleep(3);
-/*
+
         LOGGER.debug("Select departure from the drop down list");
         //Primary_Navigation_Bar.Plan.departuresOption(driver).click();
         primaryNavBar.planMenu.departuresLink.click();
