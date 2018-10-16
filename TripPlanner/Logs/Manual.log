@@ -1,6 +1,3 @@
-13/10/2018 22:31:17 testStep set webdriver to safarideriver
-13/10/2018 22:31:18 testStep set window dimension
-13/10/2018 22:31:18 testStep Set implicit wait time
-13/10/2018 22:31:18 testStep Navigate to home page
-13/10/2018 22:31:25 testStep Select plan from navigation tool bar
-13/10/2018 22:31:38 testStep Navigate to home page
+16/10/2018 22:30:20 testStep set webdriver to safarideriver
+16/10/2018 22:30:23 testStep set window dimension
+16/10/2018 22:30:23 testStep Set implicit wait time

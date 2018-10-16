@@ -67,7 +67,7 @@ public class DeparturesTest extends BaseTest {
         LOGGER.debug("Click on go blue button");
         //Page_Trip_Planner.Departures.goButton(driver).click();
         page_TripPlanner.tab_Departures.goButton.click();
-*/		sleep(10);
+		sleep(10);
 
     }
 
