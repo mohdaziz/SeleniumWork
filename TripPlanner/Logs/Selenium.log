@@ -1,3 +1,3 @@
-22:30:20,943 DEBUG testStep<strong>{1}</strong>:25 - set webdriver to safarideriver
-22:30:23,286 DEBUG testStep<strong>{1}</strong>:27 - set window dimension
-22:30:23,320 DEBUG testStep<strong>{1}</strong>:29 - Set implicit wait time
+23:02:17,654 DEBUG testStep<strong>{1}</strong>:25 - set webdriver to safarideriver
+23:02:19,841 DEBUG testStep<strong>{1}</strong>:27 - set window dimension
+23:02:19,859 DEBUG testStep<strong>{1}</strong>:29 - Set implicit wait time
