@@ -15,7 +15,7 @@ public class RegionalTicketsTest extends BaseTest {
 
     private String fromLocation;
     private String toLocation;
-	Primary_Navigation_Bar primaryNavBar = PageFactory.initElements(driver, Primary_Navigation_Bar.class);
+	private TicketAndOpalMenu ticketsAndOpalMenu = PageFactory.initElements(driver, TicketAndOpalMenu.class);;
 	
     public RegionalTicketsTest(String inputFromLocation, String inputToLocation) {
         this.fromLocation = inputFromLocation;
@@ -37,12 +37,12 @@ public class RegionalTicketsTest extends BaseTest {
 
 		LOGGER.debug("Click ticket and opal from primary navigation bar");
         //Primary_Navigation_Bar.TicketsAndOpal.ticketsAndOpalContainer(driver).click();
-        primaryNavBar.ticketsAndOpalMenu.dropDown.click();
+        ticketsAndOpalMenu.expandDropDown();
 		sleep(3);
 
         LOGGER.debug("select regional ticket link under ticket and opal drop down list");
 		//Primary_Navigation_Bar.TicketsAndOpal.regionalTicketsLink(driver).click();
-        primaryNavBar.ticketsAndOpalMenu.regionalTicketsLink.click();
+        ticketsAndOpalMenu.clickRegionalTicketsLink();
 		sleep(15);
 
 		//Flow has changed. Needs rescripting.

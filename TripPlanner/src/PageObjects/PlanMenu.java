@@ -1,26 +1,29 @@
 package PageObjects;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import java.util.List;
+import org.openqa.selenium.WebDriver;
 
 public class PlanMenu {
 
-//	public WebElement primaryNavBar;
+	private WebDriver driver;
 	
-//	public PlanMenu(WebElement primaryNavBar) {
-//			this.primaryNavBar = primaryNavBar;
-//	}
+	public PlanMenu(WebDriver driver) {
+		this.driver = driver;
+	}
 
 	@FindBy(xpath = "//*[@id=\"primary-nav\"]/li[2]")
-	public WebElement dropDown;
-	
-//	public List<WebElement> optionsList = dropDown.findElements(By.tagName("li"));
-//	//*[@id="/plan"]/div[2]/ul/li[2]/a
-//	public WebElement departuresLink = optionsList.get(1);
+	private WebElement dropDown;
 
 	@FindBy(xpath = "//*[@id=\"/plan\"]/div[2]/ul/li[2]")
-	public WebElement departuresLink;
+	private WebElement departuresLink;
+
+	public void expandDropDown() {
+		dropDown.click();
+	}
+	
+	public void clickDeparesLink() {
+		departuresLink.click();
+	}
 	
 }

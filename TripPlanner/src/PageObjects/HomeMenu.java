@@ -2,16 +2,21 @@ package PageObjects;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.WebDriver;
 
 public class HomeMenu {
 
-	public WebElement primaryNavBar;
-
-	public HomeMenu(WebElement primaryNavBar) {
-			this.primaryNavBar = primaryNavBar;
+	private WebDriver driver;
+	
+	public HomeMenu(WebDriver driver) {
+		this.driver = driver;
 	}
 
 	@FindBy(xpath = "//*[@id=\"primary-nav\"]/li[1]")
-	public WebElement homeMenuLink;
+	private WebElement homeMenuLink;
 
+	public void clickHome() {
+		homeMenuLink.click();
+	}
+	
 }

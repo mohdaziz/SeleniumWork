@@ -2,20 +2,28 @@ package PageObjects;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.WebDriver;
 
 public class TravelInfoMenu {
 
-	@FindBy(id = "primary-nav")
-	public WebElement primaryNavBar;
+	private WebDriver driver;
 
-	public TravelInfoMenu(WebElement primaryNavBar) {
-			this.primaryNavBar = primaryNavBar;
+	public TravelInfoMenu(WebDriver driver) {
+			this.driver = driver;
 	}
 	
 	@FindBy(xpath = "//*[@id=\"primary-nav\"]/li[4]/a[1]")
-	public WebElement dropDown;
+	private WebElement dropDown;
 	
 	@FindBy(linkText = "On board menu")
-	public WebElement onBoardMenuLink;
+	private WebElement onBoardMenuLink;
+
+	public void expandDropDown() {
+		dropDown.click();
+	}
+	
+	public void clickOnBoardMenuLink() {
+		onBoardMenuLink.click();
+	}
 	
 }

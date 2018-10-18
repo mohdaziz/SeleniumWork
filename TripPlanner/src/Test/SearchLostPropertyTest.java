@@ -2,6 +2,7 @@ package Test;
 
 import PageObjects.Page_Lost_Property;
 import PageObjects.Primary_Navigation_Bar;
+import PageObjects.ContactUsMenu;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -12,14 +13,14 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 
-import static Common.Utilities.pickRandomWebElement;
 import static Common.Utilities.sleep;
 
 @RunWith(Parameterized.class)
 public class SearchLostPropertyTest extends BaseTest {
 
     private int busRoute;
-	Primary_Navigation_Bar primaryNavBar = PageFactory.initElements(driver, Primary_Navigation_Bar.class);
+	//Primary_Navigation_Bar primaryNavBar = PageFactory.initElements(driver, Primary_Navigation_Bar.class);
+	ContactUsMenu contactUsMenu = PageFactory.initElements(driver, ContactUsMenu.class);
 	Page_Lost_Property pageLostProperty = PageFactory.initElements(driver, Page_Lost_Property.class);
 	
     public SearchLostPropertyTest(int inputBusRoute) {
@@ -40,24 +41,25 @@ public class SearchLostPropertyTest extends BaseTest {
 		sleep(3);
 	
         LOGGER.debug("Click on contact us link from primary navigation bar");
-		primaryNavBar.contactUsMenu.dropDown.click();
+		contactUsMenu.expandDropDown();
 		sleep(3);
 
         LOGGER.debug("Select lost property link from Contact Us drop down list");
-		primaryNavBar.contactUsMenu.lostPropertyLink.click();
+		contactUsMenu.clickLostPropertyLink();
 		sleep(10);
 
         LOGGER.debug("expand buses under operator contacts list");
-		pageLostProperty.busesToggleArrow.click();
+		pageLostProperty.clickBusesDropDownArrow();
 		sleep(1);
 
         LOGGER.debug("Search by route id");
-		pageLostProperty.busRouteTextBox.sendKeys(String.valueOf(busRoute));
+		pageLostProperty.searchBusRoute(busRoute);
 		sleep(3);
 
 		LOGGER.debug("randonly select a bus route from search result");
-        pickRandomWebElement(pageLostProperty.searchBusRouteResultsList).click();
-        sleep(10);
+        //pickRandomWebElement(pageLostProperty.searchBusRouteResultsList).click();
+        contactUsMenu.selectBusRouteFromSearchResult();
+		sleep(10);
 
     }
 

@@ -1,13 +1,11 @@
 package PageObjects;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
-
 import java.util.List;
+import static Common.Utilities.pickRandomWebElement;
 
 public class Page_Lost_Property {
 
@@ -18,13 +16,25 @@ public class Page_Lost_Property {
 	}
 
 	@FindBy(id = "accordion-buses-content-header")
-	public WebElement busesToggleArrow;
+	private WebElement busesToggleArrow;
 	
 	@FindBy(id = "search-input-Route")
-	public WebElement busRouteTextBox;
+	private WebElement busRouteTextBox;
 	
 	@FindBys(
 	@FindBy(xpath = ".//*[contains(@id,'suggestion-Route-')]"))
-	public List<WebElement> searchBusRouteResultsList;	
+	private List<WebElement> searchRouteResultsList;	
 
+	public void clickBusesDropDownArrow() {
+		busesToggleArrow.click();
+	}
+	
+	public void searchBusRoute(int busRouteNo) {
+		busRouteTextBox.sendKeys(String.valueOf(busRouteNo));
+	}
+	
+	public void selectBusRouteFromSearchResult() {
+		pickRandomWebElement(searchRouteResultsList).click();
+	}
+	
 }
