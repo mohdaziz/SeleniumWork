@@ -1,25 +1,21 @@
 package Test;
 
-import PageObjects.Page_Trip_Planner;
 import PageObjects.PlanMenu;
-import PageObjects.Primary_Navigation_Bar;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.openqa.selenium.support.PageFactory;
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.List;
-
-import static Common.Utilities.pickRandomWebElement;
 import static Common.Utilities.sleep;
 
 @RunWith(Parameterized.class)
 public class DeparturesTest extends BaseTest {
 
     private String fromLocation;
-	Primary_Navigation_Bar primaryNavBar = PageFactory.initElements(driver, Primary_Navigation_Bar.class);
-	Page_Trip_Planner page_TripPlanner = PageFactory.initElements(driver, Page_Trip_Planner.class);
+	//Primary_Navigation_Bar primaryNavBar = PageFactory.initElements(driver, Primary_Navigation_Bar.class);
+    PlanMenu planMenu = PageFactory.initElements(driver, PlanMenu.class);
+	//Page_Trip_Planner page_TripPlanner = PageFactory.initElements(driver, Page_Trip_Planner.class);
 	
     public DeparturesTest(String inputLocation) {
         fromLocation = inputLocation;
@@ -40,15 +36,15 @@ public class DeparturesTest extends BaseTest {
 
         LOGGER.debug("Select plan from navigation tool bar");
         //Primary_Navigation_Bar.Plan.planContainer(driver).click();
-        primaryNavBar.planMenu.dropDown.click();
+        planMenu.expandDropDown();
 		//primaryNavBar.expandPlanMenu();
         sleep(3);
 
         LOGGER.debug("Select departure from the drop down list");
         //Primary_Navigation_Bar.Plan.departuresOption(driver).click();
-        primaryNavBar.planMenu.departuresLink.click();
+        planMenu.clickDeparesLink();
 		sleep(3);
-
+/*
         LOGGER.debug("Select departures sub tab from the left pane");
         //Page_Trip_Planner.Departures.tabPaneDepartures(driver).click();
 		page_TripPlanner.tabPaneDepartures.click();
@@ -68,7 +64,7 @@ public class DeparturesTest extends BaseTest {
         //Page_Trip_Planner.Departures.goButton(driver).click();
         page_TripPlanner.tab_Departures.goButton.click();
 		sleep(10);
-
+*/
     }
 
 }

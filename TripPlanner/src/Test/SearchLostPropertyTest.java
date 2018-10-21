@@ -1,17 +1,13 @@
 package Test;
 
 import PageObjects.Page_Lost_Property;
-import PageObjects.Primary_Navigation_Bar;
 import PageObjects.ContactUsMenu;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.List;
 
 import static Common.Utilities.sleep;
 
@@ -56,9 +52,9 @@ public class SearchLostPropertyTest extends BaseTest {
 		pageLostProperty.searchBusRoute(busRoute);
 		sleep(3);
 
-		LOGGER.debug("randonly select a bus route from search result");
+		LOGGER.debug("randomly select a bus route from search result");
         //pickRandomWebElement(pageLostProperty.searchBusRouteResultsList).click();
-        contactUsMenu.selectBusRouteFromSearchResult();
+        pageLostProperty.selectBusRouteFromSearchResult();
 		sleep(10);
 
     }

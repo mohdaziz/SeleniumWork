@@ -41,7 +41,7 @@ public class TripPlannerTest extends BaseTest{
 		LOGGER.debug("navigate to home page");
 		driver.get(HOMEPAGE);
 		sleep(3);
-	
+/*
 		LOGGER.debug("Select Plan tab from left sub window");
 		//Page_Home.Block_TripPlanner.tab_Plan(driver).click();
 		primaryNavBar.homeMenu.homeMenuLink.click();
@@ -87,6 +87,6 @@ public class TripPlannerTest extends BaseTest{
         int routeOptions = Page_Home.Block_TripPlanner.Tab_Plan.SubTab_TripPlanner.tripSearchResultList(driver).size(); //driver.findElements(By.className("tripResults tp-result-item panel panel-default ng-scope ng-isolate-scope")).size();
         System.out.println("The number of search results is :" + routeOptions);
         sleep(5);
-
+*/
     }
 }

@@ -9,10 +9,10 @@ public class TicketAndOpalMenu {
 	private WebDriver driver;
 
 	public TicketAndOpalMenu(WebDriver driver) {
-			this.driver = driver;
+		this.driver = driver;
 	}
-	
-	@FindBy(id = "//*[@id=\"primary-nav\"]/li[3]")
+
+	@FindBy(xpath = "//*[@id=\"primary-nav\"]/li[3]")
 	private WebElement dropDown;
 
 	@FindBy(linkText = "Regional tickets")

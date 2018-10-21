@@ -1,3 +1,7 @@
-23:02:17,654 DEBUG testStep<strong>{1}</strong>:25 - set webdriver to safarideriver
-23:02:19,841 DEBUG testStep<strong>{1}</strong>:27 - set window dimension
-23:02:19,859 DEBUG testStep<strong>{1}</strong>:29 - Set implicit wait time
+23:43:50,660 DEBUG testStep<strong>{1}</strong>:25 - set webdriver to safarideriver
+23:44:02,116 DEBUG testStep<strong>{1}</strong>:27 - set window dimension
+23:44:02,133 DEBUG testStep<strong>{1}</strong>:29 - Set implicit wait time
+23:44:02,159 DEBUG testStep<strong>{1}</strong>:19 - navigate to home page
+23:44:09,220 DEBUG testStep<strong>{1}</strong>:23 - Select travel info from primary navigation bar
+23:44:12,259 DEBUG testStep<strong>{1}</strong>:28 - Select onboard menu link
+23:44:15,298 DEBUG testStep<strong>{1}</strong>:33 - Expand hot drinks under regular menu to view

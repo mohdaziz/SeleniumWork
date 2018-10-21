@@ -1,11 +1,8 @@
 package PageObjects;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.WebDriver;
 
 public class Page_Regional_Travel_Info {
 
@@ -15,13 +12,11 @@ public class Page_Regional_Travel_Info {
 		this.driver = driver;
 	}
 
-	public RegularMenu regularMenu = PageFactory.initElements(driver, RegularMenu.class);
+	@FindBy(id = "accordion-hot-drinks-content-header")
+	private WebElement hotDrinksToggleArrow;
 
-	public class RegularMenu {
-
-		@FindBy(id = "accordion-hot-drinks-content-header")
-		public WebElement hotDrinksToggleArrow;
-
+	public void viewHotDrinksMenu() {
+		hotDrinksToggleArrow.click();
 	}
 
 }

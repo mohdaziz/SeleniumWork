@@ -1,12 +1,12 @@
 package Test;
 
-import PageObjects.Primary_Navigation_Bar;
-import org.junit.Test;
+import PageObjects.TicketAndOpalMenu;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.openqa.selenium.support.PageFactory;
 import java.util.Arrays;
 import java.util.Collection;
+import org.junit.Test;
 
 import static Common.Utilities.sleep;
 
@@ -15,7 +15,7 @@ public class RegionalTicketsTest extends BaseTest {
 
     private String fromLocation;
     private String toLocation;
-	private TicketAndOpalMenu ticketsAndOpalMenu = PageFactory.initElements(driver, TicketAndOpalMenu.class);;
+	private TicketAndOpalMenu ticketsAndOpalMenu = PageFactory.initElements(driver, TicketAndOpalMenu.class);
 	
     public RegionalTicketsTest(String inputFromLocation, String inputToLocation) {
         this.fromLocation = inputFromLocation;

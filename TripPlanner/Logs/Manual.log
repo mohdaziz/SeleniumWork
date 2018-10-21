@@ -1,3 +1,7 @@
-17/10/2018 23:02:17 testStep set webdriver to safarideriver
-17/10/2018 23:02:19 testStep set window dimension
-17/10/2018 23:02:19 testStep Set implicit wait time
+21/10/2018 23:43:50 testStep set webdriver to safarideriver
+21/10/2018 23:44:02 testStep set window dimension
+21/10/2018 23:44:02 testStep Set implicit wait time
+21/10/2018 23:44:02 testStep navigate to home page
+21/10/2018 23:44:09 testStep Select travel info from primary navigation bar
+21/10/2018 23:44:12 testStep Select onboard menu link
+21/10/2018 23:44:15 testStep Expand hot drinks under regular menu to view
