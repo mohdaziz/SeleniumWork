@@ -1,11 +1,11 @@
 package PageObjects;
 
-import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import java.util.List;
+import static Common.Utilities.pickRandomWebElement;
 
 public class Page_Trip_Planner {
 
@@ -15,33 +15,37 @@ public class Page_Trip_Planner {
 		this.driver = driver;
 	}
 
-	public Tab_Departures tab_Departures = PageFactory.initElements(driver, Tab_Departures.class);
-	public Tab_Trip_Planner tab_TripPlanner = PageFactory.initElements(driver, Tab_Trip_Planner.class);
-	
 	@FindBy(id = "tab-pane-tp")
-	public WebElement tabPaneTripPlanner;
+	private WebElement tabPaneTripPlanner;
 
 	@FindBy(id = "tab-pane-nd")
-	public WebElement tabPaneDepartures;
+	private WebElement tabPaneDepartures;
 
-	public class Tab_Departures {
+	@FindBy(id = "search-input-NextDep")
+	private WebElement dep_fromLocation;
 
-		@FindBy(id = "search-input-NextDep")
-		public WebElement fromLocation;
+	@FindBy(id = "next-dep-search-button")
+	private WebElement dep_goButton;
 
-		@FindBy(id = "next-dep-search-button")
-		public WebElement goButton;
+	@FindBys(
+		@FindBy(xpath = ".//*[contains(@id,'suggestion-NextDep-')]"))
+	private List<WebElement> dep_listSearchResult;
 
-		@FindBys(
-				@FindBy(xpath = ".//*[contains(@id,'suggestion-NextDep-')]"))
-		public List<WebElement> listSearchResult;
-
+	public void clickDeparturesTab() {
+		tabPaneDepartures.click();
 	}
 
-	public class Tab_Trip_Planner {
-
-		/* implementation in progress */
-
+	public void dep_searchNextDeparture(String fromLocation) {
+		dep_fromLocation.sendKeys(fromLocation);
 	}
-	
+
+	public void dep_selectAutoSuggestion() {
+		pickRandomWebElement(dep_listSearchResult).click();
+	}
+
+	public void clickDepartureGoButton() {
+		dep_goButton.click();
+	}
+
 }
+

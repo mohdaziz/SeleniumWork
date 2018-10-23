@@ -1,7 +1,24 @@
-21/10/2018 23:43:50 testStep set webdriver to safarideriver
-21/10/2018 23:44:02 testStep set window dimension
-21/10/2018 23:44:02 testStep Set implicit wait time
-21/10/2018 23:44:02 testStep navigate to home page
-21/10/2018 23:44:09 testStep Select travel info from primary navigation bar
-21/10/2018 23:44:12 testStep Select onboard menu link
-21/10/2018 23:44:15 testStep Expand hot drinks under regular menu to view
+23/10/2018 22:29:03 testStep set webdriver to safarideriver
+23/10/2018 22:29:04 testStep set window dimension
+23/10/2018 22:29:04 testStep Set implicit wait time
+23/10/2018 22:29:04 testStep Navigate to home page
+23/10/2018 22:29:13 testStep Select plan from navigation tool bar
+23/10/2018 22:29:16 testStep Select departure from the drop down list
+23/10/2018 22:29:19 testStep Select departures sub tab from the left pane
+23/10/2018 22:29:19 testStep Search departure destination
+23/10/2018 22:29:22 testStep Pick a random destination
+23/10/2018 22:29:32 testStep Click on go blue button
+23/10/2018 22:29:42 testStep Navigate to home page
+23/10/2018 22:29:47 testStep Select plan from navigation tool bar
+23/10/2018 22:29:50 testStep Select departure from the drop down list
+23/10/2018 22:29:53 testStep Select departures sub tab from the left pane
+23/10/2018 22:29:53 testStep Search departure destination
+23/10/2018 22:29:56 testStep Pick a random destination
+23/10/2018 22:30:07 testStep Click on go blue button
+23/10/2018 22:30:17 testStep Navigate to home page
+23/10/2018 22:30:21 testStep Select plan from navigation tool bar
+23/10/2018 22:30:24 testStep Select departure from the drop down list
+23/10/2018 22:30:27 testStep Select departures sub tab from the left pane
+23/10/2018 22:30:27 testStep Search departure destination
+23/10/2018 22:30:30 testStep Pick a random destination
+23/10/2018 22:30:40 testStep Click on go blue button

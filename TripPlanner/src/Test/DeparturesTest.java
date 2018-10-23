@@ -1,5 +1,6 @@
 package Test;
 
+import PageObjects.Page_Trip_Planner;
 import PageObjects.PlanMenu;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -15,7 +16,7 @@ public class DeparturesTest extends BaseTest {
     private String fromLocation;
 	//Primary_Navigation_Bar primaryNavBar = PageFactory.initElements(driver, Primary_Navigation_Bar.class);
     PlanMenu planMenu = PageFactory.initElements(driver, PlanMenu.class);
-	//Page_Trip_Planner page_TripPlanner = PageFactory.initElements(driver, Page_Trip_Planner.class);
+	Page_Trip_Planner page_TripPlanner = PageFactory.initElements(driver, Page_Trip_Planner.class);
 	
     public DeparturesTest(String inputLocation) {
         fromLocation = inputLocation;
@@ -44,27 +45,29 @@ public class DeparturesTest extends BaseTest {
         //Primary_Navigation_Bar.Plan.departuresOption(driver).click();
         planMenu.clickDeparesLink();
 		sleep(3);
-/*
+
         LOGGER.debug("Select departures sub tab from the left pane");
         //Page_Trip_Planner.Departures.tabPaneDepartures(driver).click();
-		page_TripPlanner.tabPaneDepartures.click();
+		page_TripPlanner.clickDeparturesTab();
 				
         LOGGER.debug("Search departure destination");
         //Page_Trip_Planner.Departures.fromLocation(driver).sendKeys(fromLocation);
-        page_TripPlanner.tab_Departures.fromLocation.sendKeys(fromLocation);
+        page_TripPlanner.dep_searchNextDeparture(fromLocation);
 		sleep(3);
 
         LOGGER.debug("Pick a random destination");
         //List<WebElement> locationOptions = Page_Trip_Planner.Departures.listSearchResult(driver);
         //pickRandomWebElement(locationOptions).click();
-		pickRandomWebElement(page_TripPlanner.tab_Departures.listSearchResult).click();
+		//pickRandomWebElement(page_TripPlanner.tab_Departures.listSearchResult).click();
+        page_TripPlanner.dep_selectAutoSuggestion();
         sleep(10);
 
         LOGGER.debug("Click on go blue button");
         //Page_Trip_Planner.Departures.goButton(driver).click();
-        page_TripPlanner.tab_Departures.goButton.click();
-		sleep(10);
-*/
+        //page_TripPlanner.tab_Departures.goButton.click();
+		page_TripPlanner.clickDepartureGoButton();
+        sleep(10);
+
     }
 
 }
