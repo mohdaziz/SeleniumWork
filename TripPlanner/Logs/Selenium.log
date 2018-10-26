@@ -1,24 +1,103 @@
-22:29:03,171 DEBUG testStep<strong>{1}</strong>:25 - set webdriver to safarideriver
-22:29:04,584 DEBUG testStep<strong>{1}</strong>:27 - set window dimension
-22:29:04,599 DEBUG testStep<strong>{1}</strong>:29 - Set implicit wait time
-22:29:04,639 DEBUG testStep<strong>{1}</strong>:34 - Navigate to home page
-22:29:13,039 DEBUG testStep<strong>{1}</strong>:38 - Select plan from navigation tool bar
-22:29:16,076 DEBUG testStep<strong>{1}</strong>:44 - Select departure from the drop down list
-22:29:19,113 DEBUG testStep<strong>{1}</strong>:49 - Select departures sub tab from the left pane
-22:29:19,150 DEBUG testStep<strong>{1}</strong>:53 - Search departure destination
-22:29:22,289 DEBUG testStep<strong>{1}</strong>:58 - Pick a random destination
-22:29:32,383 DEBUG testStep<strong>{1}</strong>:65 - Click on go blue button
-22:29:42,470 DEBUG testStep<strong>{1}</strong>:34 - Navigate to home page
-22:29:47,779 DEBUG testStep<strong>{1}</strong>:38 - Select plan from navigation tool bar
-22:29:50,806 DEBUG testStep<strong>{1}</strong>:44 - Select departure from the drop down list
-22:29:53,843 DEBUG testStep<strong>{1}</strong>:49 - Select departures sub tab from the left pane
-22:29:53,877 DEBUG testStep<strong>{1}</strong>:53 - Search departure destination
-22:29:56,987 DEBUG testStep<strong>{1}</strong>:58 - Pick a random destination
-22:30:07,064 DEBUG testStep<strong>{1}</strong>:65 - Click on go blue button
-22:30:17,136 DEBUG testStep<strong>{1}</strong>:34 - Navigate to home page
-22:30:21,698 DEBUG testStep<strong>{1}</strong>:38 - Select plan from navigation tool bar
-22:30:24,725 DEBUG testStep<strong>{1}</strong>:44 - Select departure from the drop down list
-22:30:27,761 DEBUG testStep<strong>{1}</strong>:49 - Select departures sub tab from the left pane
-22:30:27,800 DEBUG testStep<strong>{1}</strong>:53 - Search departure destination
-22:30:30,917 DEBUG testStep<strong>{1}</strong>:58 - Pick a random destination
-22:30:40,990 DEBUG testStep<strong>{1}</strong>:65 - Click on go blue button
+23:20:03,516 DEBUG testStep<strong>{1}</strong>:26 - set webdriver to safari driver
+23:20:05,676 DEBUG testStep<strong>{1}</strong>:28 - set window dimension
+23:20:05,692 DEBUG testStep<strong>{1}</strong>:30 - Set implicit wait time
+23:20:05,744 DEBUG testStep<strong>{1}</strong>:33 - navigate to home page
+23:20:12,330 DEBUG testStep<strong>{1}</strong>:37 - Select Plan tab from left sub window
+23:20:13,377 DEBUG testStep<strong>{1}</strong>:41 - Select trip planner sub tab
+23:20:14,431 DEBUG testStep<strong>{1}</strong>:45 - search for origin destination
+23:20:17,568 DEBUG testStep<strong>{1}</strong>:49 - randomly select origin from search result
+23:20:20,623 DEBUG testStep<strong>{1}</strong>:53 - search for arrival destination
+23:20:23,719 DEBUG testStep<strong>{1}</strong>:57 - randomly select arrival from search result
+23:20:28,761 DEBUG testStep<strong>{1}</strong>:61 - Click GO
+23:21:03,814 DEBUG testStep<strong>{1}</strong>:33 - navigate to home page
+23:21:07,136 DEBUG testStep<strong>{1}</strong>:37 - Select Plan tab from left sub window
+23:21:08,177 DEBUG testStep<strong>{1}</strong>:41 - Select trip planner sub tab
+23:21:09,256 DEBUG testStep<strong>{1}</strong>:45 - search for origin destination
+23:21:12,356 DEBUG testStep<strong>{1}</strong>:49 - randomly select origin from search result
+23:21:15,412 DEBUG testStep<strong>{1}</strong>:53 - search for arrival destination
+23:21:18,517 DEBUG testStep<strong>{1}</strong>:57 - randomly select arrival from search result
+23:21:23,558 DEBUG testStep<strong>{1}</strong>:61 - Click GO
+23:21:58,593 DEBUG testStep<strong>{1}</strong>:33 - navigate to home page
+23:22:03,275 DEBUG testStep<strong>{1}</strong>:37 - Select Plan tab from left sub window
+23:22:04,319 DEBUG testStep<strong>{1}</strong>:41 - Select trip planner sub tab
+23:22:05,373 DEBUG testStep<strong>{1}</strong>:45 - search for origin destination
+23:22:08,526 DEBUG testStep<strong>{1}</strong>:49 - randomly select origin from search result
+23:22:11,568 DEBUG testStep<strong>{1}</strong>:53 - search for arrival destination
+23:22:14,658 DEBUG testStep<strong>{1}</strong>:57 - randomly select arrival from search result
+23:22:19,695 DEBUG testStep<strong>{1}</strong>:61 - Click GO
+23:22:54,788 DEBUG testStep<strong>{1}</strong>:26 - set webdriver to safari driver
+23:22:56,302 DEBUG testStep<strong>{1}</strong>:28 - set window dimension
+23:22:56,314 DEBUG testStep<strong>{1}</strong>:30 - Set implicit wait time
+23:22:56,341 DEBUG testStep<strong>{1}</strong>:33 - Navigate to home page
+23:23:02,656 DEBUG testStep<strong>{1}</strong>:37 - Select plan from navigation tool bar
+23:23:05,692 DEBUG testStep<strong>{1}</strong>:41 - Select departure from the drop down list
+23:23:08,730 DEBUG testStep<strong>{1}</strong>:45 - Select departures sub tab from the left pane
+23:23:08,978 DEBUG testStep<strong>{1}</strong>:48 - Search departure destination
+23:23:12,121 DEBUG testStep<strong>{1}</strong>:52 - Pick a random destination
+23:23:22,203 DEBUG testStep<strong>{1}</strong>:56 - Click on go blue button
+23:23:32,349 DEBUG testStep<strong>{1}</strong>:33 - Navigate to home page
+23:23:35,663 DEBUG testStep<strong>{1}</strong>:37 - Select plan from navigation tool bar
+23:23:38,691 DEBUG testStep<strong>{1}</strong>:41 - Select departure from the drop down list
+23:23:41,729 DEBUG testStep<strong>{1}</strong>:45 - Select departures sub tab from the left pane
+23:23:41,773 DEBUG testStep<strong>{1}</strong>:48 - Search departure destination
+23:23:44,882 DEBUG testStep<strong>{1}</strong>:52 - Pick a random destination
+23:23:54,953 DEBUG testStep<strong>{1}</strong>:56 - Click on go blue button
+23:23:55,125 DEBUG testStep<strong>{1}</strong>:33 - Navigate to home page
+23:23:59,126 DEBUG testStep<strong>{1}</strong>:37 - Select plan from navigation tool bar
+23:24:02,172 DEBUG testStep<strong>{1}</strong>:41 - Select departure from the drop down list
+23:24:05,207 DEBUG testStep<strong>{1}</strong>:45 - Select departures sub tab from the left pane
+23:24:05,238 DEBUG testStep<strong>{1}</strong>:48 - Search departure destination
+23:24:08,351 DEBUG testStep<strong>{1}</strong>:52 - Pick a random destination
+23:24:18,423 DEBUG testStep<strong>{1}</strong>:56 - Click on go blue button
+23:24:28,624 DEBUG testStep<strong>{1}</strong>:26 - set webdriver to safari driver
+23:24:30,148 DEBUG testStep<strong>{1}</strong>:28 - set window dimension
+23:24:30,164 DEBUG testStep<strong>{1}</strong>:30 - Set implicit wait time
+23:24:30,178 DEBUG testStep<strong>{1}</strong>:34 - navigate to home page
+23:24:36,653 DEBUG testStep<strong>{1}</strong>:38 - Click ticket and opal from primary navigation bar
+23:24:39,688 DEBUG testStep<strong>{1}</strong>:42 - select regional ticket link under ticket and opal drop down list
+23:24:54,723 DEBUG testStep<strong>{1}</strong>:34 - navigate to home page
+23:24:58,634 DEBUG testStep<strong>{1}</strong>:38 - Click ticket and opal from primary navigation bar
+23:25:01,661 DEBUG testStep<strong>{1}</strong>:42 - select regional ticket link under ticket and opal drop down list
+23:25:16,697 DEBUG testStep<strong>{1}</strong>:34 - navigate to home page
+23:25:20,401 DEBUG testStep<strong>{1}</strong>:38 - Click ticket and opal from primary navigation bar
+23:25:23,431 DEBUG testStep<strong>{1}</strong>:42 - select regional ticket link under ticket and opal drop down list
+23:25:38,534 DEBUG testStep<strong>{1}</strong>:26 - set webdriver to safari driver
+23:25:40,057 DEBUG testStep<strong>{1}</strong>:28 - set window dimension
+23:25:40,074 DEBUG testStep<strong>{1}</strong>:30 - Set implicit wait time
+23:25:40,102 DEBUG testStep<strong>{1}</strong>:18 - navigate to home page
+23:25:46,352 DEBUG testStep<strong>{1}</strong>:22 - Select travel info from primary navigation bar
+23:25:49,387 DEBUG testStep<strong>{1}</strong>:26 - Select onboard menu link
+23:25:52,418 DEBUG testStep<strong>{1}</strong>:30 - Expand hot drinks under regular menu to view
+23:26:02,805 DEBUG testStep<strong>{1}</strong>:26 - set webdriver to safari driver
+23:26:04,326 DEBUG testStep<strong>{1}</strong>:28 - set window dimension
+23:26:04,338 DEBUG testStep<strong>{1}</strong>:30 - Set implicit wait time
+23:26:04,368 DEBUG testStep<strong>{1}</strong>:34 - navigate to home page
+23:26:10,811 DEBUG testStep<strong>{1}</strong>:38 - Click on contact us link from primary navigation bar
+23:26:13,848 DEBUG testStep<strong>{1}</strong>:42 - Select lost property link from Contact Us drop down list
+23:26:23,885 DEBUG testStep<strong>{1}</strong>:46 - expand buses under operator contacts list
+23:26:24,943 DEBUG testStep<strong>{1}</strong>:50 - Search by route id
+23:26:28,024 DEBUG testStep<strong>{1}</strong>:54 - randomly select a bus route from search result
+23:26:38,118 DEBUG testStep<strong>{1}</strong>:34 - navigate to home page
+23:26:42,235 DEBUG testStep<strong>{1}</strong>:38 - Click on contact us link from primary navigation bar
+23:26:45,262 DEBUG testStep<strong>{1}</strong>:42 - Select lost property link from Contact Us drop down list
+23:26:55,299 DEBUG testStep<strong>{1}</strong>:46 - expand buses under operator contacts list
+23:26:56,350 DEBUG testStep<strong>{1}</strong>:50 - Search by route id
+23:26:59,423 DEBUG testStep<strong>{1}</strong>:54 - randomly select a bus route from search result
+23:27:09,513 DEBUG testStep<strong>{1}</strong>:34 - navigate to home page
+23:27:13,530 DEBUG testStep<strong>{1}</strong>:38 - Click on contact us link from primary navigation bar
+23:27:16,559 DEBUG testStep<strong>{1}</strong>:42 - Select lost property link from Contact Us drop down list
+23:27:26,599 DEBUG testStep<strong>{1}</strong>:46 - expand buses under operator contacts list
+23:27:27,652 DEBUG testStep<strong>{1}</strong>:50 - Search by route id
+23:27:30,721 DEBUG testStep<strong>{1}</strong>:54 - randomly select a bus route from search result
+23:27:40,807 DEBUG testStep<strong>{1}</strong>:34 - navigate to home page
+23:27:45,398 DEBUG testStep<strong>{1}</strong>:38 - Click on contact us link from primary navigation bar
+23:27:48,424 DEBUG testStep<strong>{1}</strong>:42 - Select lost property link from Contact Us drop down list
+23:27:58,460 DEBUG testStep<strong>{1}</strong>:46 - expand buses under operator contacts list
+23:27:59,514 DEBUG testStep<strong>{1}</strong>:50 - Search by route id
+23:28:02,580 DEBUG testStep<strong>{1}</strong>:54 - randomly select a bus route from search result
+23:28:12,667 DEBUG testStep<strong>{1}</strong>:34 - navigate to home page
+23:28:16,675 DEBUG testStep<strong>{1}</strong>:38 - Click on contact us link from primary navigation bar
+23:28:19,704 DEBUG testStep<strong>{1}</strong>:42 - Select lost property link from Contact Us drop down list
+23:28:29,739 DEBUG testStep<strong>{1}</strong>:46 - expand buses under operator contacts list
+23:28:30,796 DEBUG testStep<strong>{1}</strong>:50 - Search by route id
+23:28:33,861 DEBUG testStep<strong>{1}</strong>:54 - randomly select a bus route from search result

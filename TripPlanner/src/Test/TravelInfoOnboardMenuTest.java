@@ -20,20 +20,17 @@ public class TravelInfoOnboardMenuTest extends BaseTest {
 		sleep(3);
 
 		LOGGER.debug("Select travel info from primary navigation bar");
-        //Primary_Navigation_Bar.TravelInfo.travelInfoContainer(driver).click();
 		travelInfoMenu.expandDropDown();
 		sleep(3);
 
 		LOGGER.debug("Select onboard menu link");
-        //Primary_Navigation_Bar.TravelInfo.RegionalTravel.onBoardMenuLink(driver).click();
 		travelInfoMenu.clickOnBoardMenuLink();
 		sleep(3);
 			
 		LOGGER.debug("Expand hot drinks under regular menu to view");
-        //Page_Regional_Travel_Info.RegularMenu.hotDrinksToggleArrow(driver).click();
 		page_RegionalTravelInfo.viewHotDrinksMenu();
 		sleep(10);
 
-        }
+    }
 
 }

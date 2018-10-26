@@ -15,7 +15,6 @@ import static Common.Utilities.sleep;
 public class SearchLostPropertyTest extends BaseTest {
 
     private int busRoute;
-	//Primary_Navigation_Bar primaryNavBar = PageFactory.initElements(driver, Primary_Navigation_Bar.class);
 	ContactUsMenu contactUsMenu = PageFactory.initElements(driver, ContactUsMenu.class);
 	Page_Lost_Property pageLostProperty = PageFactory.initElements(driver, Page_Lost_Property.class);
 	

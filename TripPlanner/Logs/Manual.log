@@ -1,24 +1,103 @@
-23/10/2018 22:29:03 testStep set webdriver to safarideriver
-23/10/2018 22:29:04 testStep set window dimension
-23/10/2018 22:29:04 testStep Set implicit wait time
-23/10/2018 22:29:04 testStep Navigate to home page
-23/10/2018 22:29:13 testStep Select plan from navigation tool bar
-23/10/2018 22:29:16 testStep Select departure from the drop down list
-23/10/2018 22:29:19 testStep Select departures sub tab from the left pane
-23/10/2018 22:29:19 testStep Search departure destination
-23/10/2018 22:29:22 testStep Pick a random destination
-23/10/2018 22:29:32 testStep Click on go blue button
-23/10/2018 22:29:42 testStep Navigate to home page
-23/10/2018 22:29:47 testStep Select plan from navigation tool bar
-23/10/2018 22:29:50 testStep Select departure from the drop down list
-23/10/2018 22:29:53 testStep Select departures sub tab from the left pane
-23/10/2018 22:29:53 testStep Search departure destination
-23/10/2018 22:29:56 testStep Pick a random destination
-23/10/2018 22:30:07 testStep Click on go blue button
-23/10/2018 22:30:17 testStep Navigate to home page
-23/10/2018 22:30:21 testStep Select plan from navigation tool bar
-23/10/2018 22:30:24 testStep Select departure from the drop down list
-23/10/2018 22:30:27 testStep Select departures sub tab from the left pane
-23/10/2018 22:30:27 testStep Search departure destination
-23/10/2018 22:30:30 testStep Pick a random destination
-23/10/2018 22:30:40 testStep Click on go blue button
+26/10/2018 23:20:03 testStep set webdriver to safari driver
+26/10/2018 23:20:05 testStep set window dimension
+26/10/2018 23:20:05 testStep Set implicit wait time
+26/10/2018 23:20:05 testStep navigate to home page
+26/10/2018 23:20:12 testStep Select Plan tab from left sub window
+26/10/2018 23:20:13 testStep Select trip planner sub tab
+26/10/2018 23:20:14 testStep search for origin destination
+26/10/2018 23:20:17 testStep randomly select origin from search result
+26/10/2018 23:20:20 testStep search for arrival destination
+26/10/2018 23:20:23 testStep randomly select arrival from search result
+26/10/2018 23:20:28 testStep Click GO
+26/10/2018 23:21:03 testStep navigate to home page
+26/10/2018 23:21:07 testStep Select Plan tab from left sub window
+26/10/2018 23:21:08 testStep Select trip planner sub tab
+26/10/2018 23:21:09 testStep search for origin destination
+26/10/2018 23:21:12 testStep randomly select origin from search result
+26/10/2018 23:21:15 testStep search for arrival destination
+26/10/2018 23:21:18 testStep randomly select arrival from search result
+26/10/2018 23:21:23 testStep Click GO
+26/10/2018 23:21:58 testStep navigate to home page
+26/10/2018 23:22:03 testStep Select Plan tab from left sub window
+26/10/2018 23:22:04 testStep Select trip planner sub tab
+26/10/2018 23:22:05 testStep search for origin destination
+26/10/2018 23:22:08 testStep randomly select origin from search result
+26/10/2018 23:22:11 testStep search for arrival destination
+26/10/2018 23:22:14 testStep randomly select arrival from search result
+26/10/2018 23:22:19 testStep Click GO
+26/10/2018 23:22:54 testStep set webdriver to safari driver
+26/10/2018 23:22:56 testStep set window dimension
+26/10/2018 23:22:56 testStep Set implicit wait time
+26/10/2018 23:22:56 testStep Navigate to home page
+26/10/2018 23:23:02 testStep Select plan from navigation tool bar
+26/10/2018 23:23:05 testStep Select departure from the drop down list
+26/10/2018 23:23:08 testStep Select departures sub tab from the left pane
+26/10/2018 23:23:08 testStep Search departure destination
+26/10/2018 23:23:12 testStep Pick a random destination
+26/10/2018 23:23:22 testStep Click on go blue button
+26/10/2018 23:23:32 testStep Navigate to home page
+26/10/2018 23:23:35 testStep Select plan from navigation tool bar
+26/10/2018 23:23:38 testStep Select departure from the drop down list
+26/10/2018 23:23:41 testStep Select departures sub tab from the left pane
+26/10/2018 23:23:41 testStep Search departure destination
+26/10/2018 23:23:44 testStep Pick a random destination
+26/10/2018 23:23:54 testStep Click on go blue button
+26/10/2018 23:23:55 testStep Navigate to home page
+26/10/2018 23:23:59 testStep Select plan from navigation tool bar
+26/10/2018 23:24:02 testStep Select departure from the drop down list
+26/10/2018 23:24:05 testStep Select departures sub tab from the left pane
+26/10/2018 23:24:05 testStep Search departure destination
+26/10/2018 23:24:08 testStep Pick a random destination
+26/10/2018 23:24:18 testStep Click on go blue button
+26/10/2018 23:24:28 testStep set webdriver to safari driver
+26/10/2018 23:24:30 testStep set window dimension
+26/10/2018 23:24:30 testStep Set implicit wait time
+26/10/2018 23:24:30 testStep navigate to home page
+26/10/2018 23:24:36 testStep Click ticket and opal from primary navigation bar
+26/10/2018 23:24:39 testStep select regional ticket link under ticket and opal drop down list
+26/10/2018 23:24:54 testStep navigate to home page
+26/10/2018 23:24:58 testStep Click ticket and opal from primary navigation bar
+26/10/2018 23:25:01 testStep select regional ticket link under ticket and opal drop down list
+26/10/2018 23:25:16 testStep navigate to home page
+26/10/2018 23:25:20 testStep Click ticket and opal from primary navigation bar
+26/10/2018 23:25:23 testStep select regional ticket link under ticket and opal drop down list
+26/10/2018 23:25:38 testStep set webdriver to safari driver
+26/10/2018 23:25:40 testStep set window dimension
+26/10/2018 23:25:40 testStep Set implicit wait time
+26/10/2018 23:25:40 testStep navigate to home page
+26/10/2018 23:25:46 testStep Select travel info from primary navigation bar
+26/10/2018 23:25:49 testStep Select onboard menu link
+26/10/2018 23:25:52 testStep Expand hot drinks under regular menu to view
+26/10/2018 23:26:02 testStep set webdriver to safari driver
+26/10/2018 23:26:04 testStep set window dimension
+26/10/2018 23:26:04 testStep Set implicit wait time
+26/10/2018 23:26:04 testStep navigate to home page
+26/10/2018 23:26:10 testStep Click on contact us link from primary navigation bar
+26/10/2018 23:26:13 testStep Select lost property link from Contact Us drop down list
+26/10/2018 23:26:23 testStep expand buses under operator contacts list
+26/10/2018 23:26:24 testStep Search by route id
+26/10/2018 23:26:28 testStep randomly select a bus route from search result
+26/10/2018 23:26:38 testStep navigate to home page
+26/10/2018 23:26:42 testStep Click on contact us link from primary navigation bar
+26/10/2018 23:26:45 testStep Select lost property link from Contact Us drop down list
+26/10/2018 23:26:55 testStep expand buses under operator contacts list
+26/10/2018 23:26:56 testStep Search by route id
+26/10/2018 23:26:59 testStep randomly select a bus route from search result
+26/10/2018 23:27:09 testStep navigate to home page
+26/10/2018 23:27:13 testStep Click on contact us link from primary navigation bar
+26/10/2018 23:27:16 testStep Select lost property link from Contact Us drop down list
+26/10/2018 23:27:26 testStep expand buses under operator contacts list
+26/10/2018 23:27:27 testStep Search by route id
+26/10/2018 23:27:30 testStep randomly select a bus route from search result
+26/10/2018 23:27:40 testStep navigate to home page
+26/10/2018 23:27:45 testStep Click on contact us link from primary navigation bar
+26/10/2018 23:27:48 testStep Select lost property link from Contact Us drop down list
+26/10/2018 23:27:58 testStep expand buses under operator contacts list
+26/10/2018 23:27:59 testStep Search by route id
+26/10/2018 23:28:02 testStep randomly select a bus route from search result
+26/10/2018 23:28:12 testStep navigate to home page
+26/10/2018 23:28:16 testStep Click on contact us link from primary navigation bar
+26/10/2018 23:28:19 testStep Select lost property link from Contact Us drop down list
+26/10/2018 23:28:29 testStep expand buses under operator contacts list
+26/10/2018 23:28:30 testStep Search by route id
+26/10/2018 23:28:33 testStep randomly select a bus route from search result

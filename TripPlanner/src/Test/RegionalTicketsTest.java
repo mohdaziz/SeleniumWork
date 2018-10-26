@@ -36,12 +36,10 @@ public class RegionalTicketsTest extends BaseTest {
         sleep(3);
 
 		LOGGER.debug("Click ticket and opal from primary navigation bar");
-        //Primary_Navigation_Bar.TicketsAndOpal.ticketsAndOpalContainer(driver).click();
         ticketsAndOpalMenu.expandDropDown();
 		sleep(3);
 
         LOGGER.debug("select regional ticket link under ticket and opal drop down list");
-		//Primary_Navigation_Bar.TicketsAndOpal.regionalTicketsLink(driver).click();
         ticketsAndOpalMenu.clickRegionalTicketsLink();
 		sleep(15);
 

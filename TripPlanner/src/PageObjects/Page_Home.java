@@ -1,6 +1,5 @@
 package PageObjects;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -53,12 +52,20 @@ public class Page_Home {
         tp_FromLocation.sendKeys(fromLocation);
     }
 
+    public void tp_EnterToLocation(String toLocation) {
+        tp_ToLocation.sendKeys(toLocation);
+    }
+
     public void tp_RandomSelectLocationFromAutoSuggestList() {
         pickRandomWebElement(searchAutoSuggestList).click();
     }
 
     public void tp_ClickGoButton() {
         tp_GoButton.click();
+    }
+
+    public int tp_getTripSearchResultsCount() {
+        return tp_tripSearchResultsList.size();
     }
 
 }
